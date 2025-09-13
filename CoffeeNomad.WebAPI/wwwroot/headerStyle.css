@@ -1,0 +1,393 @@
+.property-dashboard {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  gap: 16px;
+  padding: var(--primitives-other-gap-9) 48px var(--primitives-other-gap-9) 48px;
+  position: relative;
+  background-color: var(--primitives-color-tertiary-600);
+}
+
+.property-dashboard .frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.property-dashboard .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8.5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.property-dashboard .div-logo {
+  display: flex;
+  flex-direction: column;
+  width: 105.5px;
+  align-items: center;
+  position: relative;
+}
+
+.property-dashboard .coffee {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.50px;
+  font-family: "Unbounded-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primitives-color-netural-white);
+  font-size: 10px;
+  letter-spacing: -0.20px;
+  line-height: 13.0px;
+}
+
+.property-dashboard .text-wrapper {
+  position: relative;
+  width: 98.5px;
+  font-family: "FONTSPRING DEMO - Roc Grotesk Black-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primitives-color-netural-white);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.48px;
+  line-height: 19.2px;
+}
+
+.property-dashboard .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--primitives-other-gap-13);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.property-dashboard .selected-item {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9);
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-full-corner);
+}
+
+.property-dashboard .text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-medium-font-family);
+  font-weight: var(--body-m-medium-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-medium-font-size);
+  letter-spacing: var(--body-m-medium-letter-spacing);
+  line-height: var(--body-m-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-medium-font-style);
+}
+
+.property-dashboard .text-2 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-netural-white);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+}
+
+.property-dashboard .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.property-dashboard .huge-icon-device {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.property-dashboard .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.property-dashboard .rectangle {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.property-dashboard .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.property-dashboard .text-3 {
+  margin-top: -1.00px;
+  font-family: var(--body-m-medium-font-family);
+  font-weight: var(--body-m-medium-font-weight);
+  font-size: var(--body-m-medium-font-size);
+  letter-spacing: var(--body-m-medium-letter-spacing);
+  line-height: var(--body-m-medium-line-height);
+  position: relative;
+  width: fit-content;
+  color: var(--primitives-color-netural-white);
+  white-space: nowrap;
+  font-style: var(--body-m-medium-font-style);
+}
+
+.property-dashboard .text-4 {
+  font-family: var(--body-XS-regular-font-family);
+  font-weight: var(--body-XS-regular-font-weight);
+  font-size: var(--body-XS-regular-font-size);
+  letter-spacing: var(--body-XS-regular-letter-spacing);
+  line-height: var(--body-XS-regular-line-height);
+  position: relative;
+  width: fit-content;
+  color: var(--primitives-color-netural-white);
+  white-space: nowrap;
+  font-style: var(--body-XS-regular-font-style);
+}
+
+.property-dashboard .huge-icon-arrows {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+/* Original CSS code should be injected here */
+
+/* Additional styles for semantic elements and accessibility */
+.notification-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification-button:hover {
+  opacity: 0.8;
+}
+
+.dropdown-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown-button:hover {
+  opacity: 0.8;
+}
+
+.text-2 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-netural-white);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+}
+
+.text-2:hover {
+  opacity: 0.8;
+}
+
+.text-2:focus-visible {
+  outline: 2px solid var(--primitives-color-netural-white);
+  outline-offset: 2px;
+}
+
+.notification-button:focus-visible,
+.dropdown-button:focus-visible {
+  outline: 2px solid var(--primitives-color-netural-white);
+  outline-offset: 2px;
+}
+
+.property-dashboard {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 16px;
+  padding: var(--primitives-other-gap-9) 48px var(--primitives-other-gap-9) 48px;
+  position: relative;
+  background-color: var(--primitives-color-tertiary-600);
+}
+
+.property-dashboard .frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.property-dashboard .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8.5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.property-dashboard .div {
+  display: flex;
+  flex-direction: column;
+  width: 105.5px;
+  align-items: center;
+  position: relative;
+}
+
+.property-dashboard .coffee {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.50px;
+  font-family: "Unbounded-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primitives-color-netural-white);
+  font-size: 10px;
+  letter-spacing: -0.20px;
+  line-height: 13.0px;
+}
+
+.property-dashboard .text-wrapper {
+  position: relative;
+  width: 98.5px;
+  font-family: "FONTSPRING DEMO - Roc Grotesk Black-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primitives-color-netural-white);
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: -0.48px;
+  line-height: 19.2px;
+}
+
+.property-dashboard .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--primitives-other-gap-13);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.property-dashboard .text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-medium-font-family);
+  font-weight: var(--body-m-medium-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-medium-font-size);
+  letter-spacing: var(--body-m-medium-letter-spacing);
+  line-height: var(--body-m-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-medium-font-style);
+}
+
+.property-dashboard .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.property-dashboard .huge-icon-device {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.property-dashboard .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.property-dashboard .rectangle {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.property-dashboard .frame-4 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.property-dashboard .text-3 {
+  margin-top: -1.00px;
+  font-family: var(--body-m-medium-font-family);
+  font-weight: var(--body-m-medium-font-weight);
+  font-size: var(--body-m-medium-font-size);
+  letter-spacing: var(--body-m-medium-letter-spacing);
+  line-height: var(--body-m-medium-line-height);
+  position: relative;
+  width: fit-content;
+  color: var(--primitives-color-netural-white);
+  white-space: nowrap;
+  font-style: var(--body-m-medium-font-style);
+}
+
+.property-dashboard .text-4 {
+  font-family: var(--body-XS-regular-font-family);
+  font-weight: var(--body-XS-regular-font-weight);
+  font-size: var(--body-XS-regular-font-size);
+  letter-spacing: var(--body-XS-regular-letter-spacing);
+  line-height: var(--body-XS-regular-line-height);
+  position: relative;
+  width: fit-content;
+  color: var(--primitives-color-netural-white);
+  white-space: nowrap;
+  font-style: var(--body-XS-regular-font-style);
+}
+
+.property-dashboard .huge-icon-arrows {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}

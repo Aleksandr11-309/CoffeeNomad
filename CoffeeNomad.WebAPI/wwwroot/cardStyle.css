@@ -1,0 +1,273 @@
+.CARD {
+  display: flex;
+  flex-direction: column;
+  width: 324px;
+  align-items: flex-start;
+  position: relative;
+  /* box-shadow: var(--shadow-xl); */
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.CARD .rectangle {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 172px;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-xl)
+    var(--primitives-other-radius-xl) 0px 0px;
+}
+
+.CARD .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-7);
+  padding: var(--primitives-other-gap-7);
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: 0px 0px var(--primitives-other-radius-xl)
+    var(--primitives-other-radius-xl);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CARD .div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-radius-xl);
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CARD .frame-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  width: 100%;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CARD .already-have-an {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--body-s-medium-font-family);
+  font-weight: var(--body-s-medium-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-s-medium-font-size);
+  letter-spacing: var(--body-s-medium-letter-spacing);
+  line-height: var(--body-s-medium-line-height);
+  font-style: var(--body-s-medium-font-style);
+}
+
+.CARD .text-wrapper {
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-XS-medium-font-size);
+  letter-spacing: var(--body-XS-medium-letter-spacing);
+  line-height: var(--body-XS-medium-line-height);
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-XS-medium-font-family);
+  font-weight: var(--body-XS-medium-font-weight);
+  white-space: nowrap;
+  font-style: var(--body-XS-medium-font-style);
+}
+
+.CARD .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--body-XS-regular-font-family);
+  font-weight: var(--body-XS-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-XS-regular-font-size);
+  letter-spacing: var(--body-XS-regular-letter-spacing);
+  line-height: var(--body-XS-regular-line-height);
+  font-style: var(--body-XS-regular-font-style);
+}
+
+.CARD .QTY {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.CARD .delete {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px;
+  position: relative;
+  border-radius: 100px;
+  border: 1px solid;
+  border-color: var(--grey-100);
+}
+
+.CARD .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-s-medium-font-family);
+  font-weight: var(--body-s-medium-font-weight);
+  color: #000000;
+  font-size: var(--body-s-medium-font-size);
+  letter-spacing: var(--body-s-medium-letter-spacing);
+  line-height: var(--body-s-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-s-medium-font-style);
+}
+
+.CARD .item-container-button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--primitives-other-gap-9);
+  padding: var(--primitives-other-gap-7) 0px 0px 0px;
+  align-self: stretch;
+  width: 100%;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: var(--primitives-color-gray-100);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CARD .item-button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: var(--primitives-other-gap-6) var(--primitives-other-gap-7)
+    var(--primitives-other-gap-6) var(--primitives-other-gap-7);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-tertiary-600);
+  border-radius: var(--primitives-other-radius-full-corner);
+}
+
+.CARD .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.CARD .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-netural-white);
+  font-size: var(--body-s-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-s-regular-font-style);
+}
+
+.CARD .image {
+  position: absolute;
+  width: 250px;
+  height: 160px;
+  top: 6px;
+  left: 37px;
+}
+/* Original CSS code should be injected here */
+
+/* Additional styles for accessibility and semantic improvements */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.QTY {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.delete {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.delete:hover {
+  background-color: var(--primitives-color-gray-50);
+  border-color: var(--primitives-color-gray-300);
+}
+
+.delete:focus-within {
+  outline: 2px solid var(--primitives-color-primary-500);
+  outline-offset: 2px;
+}
+
+.delete input[type="radio"]:checked + .text-wrapper-3 {
+  color: var(--primitives-color-primary-600);
+  font-weight: var(--body-s-bold-font-weight);
+}
+
+.delete input[type="radio"]:checked {
+  background-color: var(--primitives-color-primary-50);
+  border-color: var(--primitives-color-primary-500);
+}
+
+.item-button:hover {
+  background-color: var(--primitives-color-tertiary-700);
+  transform: translateY(-1px);
+}
+
+.item-button:active {
+  transform: translateY(0);
+}
+
+.item-button:focus-visible {
+  outline: 2px solid var(--primitives-color-primary-500);
+  outline-offset: 2px;
+}
+
+.CARD {
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  .CARD {
+    width: 100%;
+    max-width: 324px;
+  }
+}

@@ -1,0 +1,497 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.container .item {
+  background-color: var(--primitives-color-tertiary-100);
+  position: relative;
+  width: 150px;
+  height: 154px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.container .frame {
+  display: flex;
+  flex-direction: column;
+  width: 82px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  top: 27px;
+  left: 16px;
+}
+
+.container .icon {
+  background-color: var(--primitives-color-tertiary-600);
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.container .div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+.container .group {
+  height: 17px;
+  top: 1px;
+  position: relative;
+  background-image: url(./img/vector.svg);
+  background-size: 100% 100%;
+}
+
+.container .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--body-XS-medium-font-family);
+  font-weight: var(--body-XS-medium-font-weight);
+  color: var(--primitives-color-netural-black);
+  font-size: var(--body-XS-medium-font-size);
+  letter-spacing: var(--body-XS-medium-letter-spacing);
+  line-height: var(--body-XS-medium-line-height);
+  font-style: var(--body-XS-medium-font-style);
+}
+
+.container .text-wrapper-2 {
+  color: #000000;
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-XS-regular-font-family);
+  font-weight: var(--body-XS-regular-font-weight);
+  font-size: var(--body-XS-regular-font-size);
+  letter-spacing: var(--body-XS-regular-letter-spacing);
+  line-height: var(--body-XS-regular-line-height);
+  font-style: var(--body-XS-regular-font-style);
+}
+
+.container .frame-wrapper {
+  background-color: var(--primitives-color-netural-white);
+  box-shadow: var(--shadow-xl);
+  position: relative;
+  width: 150px;
+  height: 154px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.container .frame-3 {
+  width: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  top: 27px;
+  left: 16px;
+}
+
+.container .div-wrapper {
+  background-color: var(--primitives-color-gray-200);
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.container .frame-4 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/vector-5.svg);
+  background-size: 100% 100%;
+}
+
+.container .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--body-XS-medium-font-family);
+  font-weight: var(--body-XS-medium-font-weight);
+  color: var(--primitives-color-gray-900);
+  font-size: var(--body-XS-medium-font-size);
+  letter-spacing: var(--body-XS-medium-letter-spacing);
+  line-height: var(--body-XS-medium-line-height);
+  font-style: var(--body-XS-medium-font-style);
+}
+
+.container .text-wrapper-4 {
+  color: var(--primitives-color-gray-900);
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-XS-regular-font-family);
+  font-weight: var(--body-XS-regular-font-weight);
+  font-size: var(--body-XS-regular-font-size);
+  letter-spacing: var(--body-XS-regular-letter-spacing);
+  line-height: var(--body-XS-regular-line-height);
+  font-style: var(--body-XS-regular-font-style);
+}
+
+.container .frame-5 {
+  width: 121px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  top: 27px;
+  left: 16px;
+}
+
+.container .group-2 {
+  width: 18px;
+  height: 20px;
+  left: 1px;
+  position: relative;
+  background-image: url(./img/vector-6.svg);
+  background-size: 100% 100%;
+}
+
+.container .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 65px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  top: 27px;
+  left: 16px;
+}
+
+.container .frame-7 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/image.svg);
+  background-size: 100% 100%;
+}
+
+.container .group-3 {
+  width: 17px;
+  height: 20px;
+  left: 1px;
+  position: relative;
+  background-image: url(./img/vector-2.svg);
+  background-size: 100% 100%;
+}
+
+.container .vector {
+  position: absolute;
+  width: 17px;
+  height: 20px;
+  top: 0;
+  left: 2px;
+}
+
+.container .frame-8 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/vector-8.svg);
+  background-size: 100% 100%;
+}
+
+.container .frame-9 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/vector-4.svg);
+  background-size: 100% 100%;
+}
+
+.container .frame-10 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/vector-3.svg);
+  background-size: 100% 100%;
+}
+/* Original CSS code should be injected here */
+
+/* Enhanced accessibility and interaction styles */
+.container [role="button"] {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container [role="button"]:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-2xl);
+}
+
+.container [role="button"]:focus {
+  outline: 2px solid var(--primitives-color-primary-500);
+  outline-offset: 2px;
+}
+
+.container [role="button"]:active {
+  transform: translateY(0);
+}
+
+/* Ensure proper heading hierarchy */
+.container h3 {
+  margin: 0;
+}
+
+.container p {
+  margin: 0;
+}
+
+/* Improve touch targets for mobile */
+@media (max-width: 768px) {
+  .container [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+.container {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.container .item {
+  background-color: var(--primitives-color-tertiary-100);
+  position: relative;
+  width: 150px;
+  height: 154px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.container .frame {
+  display: flex;
+  flex-direction: column;
+  width: 82px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  top: 27px;
+  left: 16px;
+}
+
+.container .icon {
+  background-color: var(--primitives-color-tertiary-600);
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.container .div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+.container .group {
+  height: 17px;
+  top: 1px;
+  position: relative;
+  background-image: url(./img/vector.svg);
+  background-size: 100% 100%;
+}
+
+.container .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--body-XS-medium-font-family);
+  font-weight: var(--body-XS-medium-font-weight);
+  color: var(--primitives-color-netural-black);
+  font-size: var(--body-XS-medium-font-size);
+  letter-spacing: var(--body-XS-medium-letter-spacing);
+  line-height: var(--body-XS-medium-line-height);
+  font-style: var(--body-XS-medium-font-style);
+}
+
+.container .text-wrapper-2 {
+  color: #000000;
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-XS-regular-font-family);
+  font-weight: var(--body-XS-regular-font-weight);
+  font-size: var(--body-XS-regular-font-size);
+  letter-spacing: var(--body-XS-regular-letter-spacing);
+  line-height: var(--body-XS-regular-line-height);
+  font-style: var(--body-XS-regular-font-style);
+}
+
+.container .frame-wrapper {
+  background-color: var(--primitives-color-netural-white);
+  box-shadow: var(--shadow-xl);
+  position: relative;
+  width: 150px;
+  height: 154px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.container .frame-3 {
+  width: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  top: 27px;
+  left: 16px;
+}
+
+.container .div-wrapper {
+  background-color: var(--primitives-color-gray-200);
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.container .frame-4 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/vector-5.svg);
+  background-size: 100% 100%;
+}
+
+.container .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--body-XS-medium-font-family);
+  font-weight: var(--body-XS-medium-font-weight);
+  color: var(--primitives-color-gray-900);
+  font-size: var(--body-XS-medium-font-size);
+  letter-spacing: var(--body-XS-medium-letter-spacing);
+  line-height: var(--body-XS-medium-line-height);
+  font-style: var(--body-XS-medium-font-style);
+}
+
+.container .text-wrapper-4 {
+  color: var(--primitives-color-gray-900);
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-XS-regular-font-family);
+  font-weight: var(--body-XS-regular-font-weight);
+  font-size: var(--body-XS-regular-font-size);
+  letter-spacing: var(--body-XS-regular-letter-spacing);
+  line-height: var(--body-XS-regular-line-height);
+  font-style: var(--body-XS-regular-font-style);
+}
+
+.container .frame-5 {
+  width: 121px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  top: 27px;
+  left: 16px;
+}
+
+.container .group-2 {
+  width: 18px;
+  height: 20px;
+  left: 1px;
+  position: relative;
+  background-image: url(./img/vector-6.svg);
+  background-size: 100% 100%;
+}
+
+.container .frame-6 {
+  display: flex;
+  flex-direction: column;
+  width: 65px;
+  align-items: flex-start;
+  gap: 20px;
+  position: relative;
+  top: 27px;
+  left: 16px;
+}
+
+.container .frame-7 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/image.svg);
+  background-size: 100% 100%;
+}
+
+.container .group-3 {
+  width: 17px;
+  height: 20px;
+  left: 1px;
+  position: relative;
+  background-image: url(./img/vector-2.svg);
+  background-size: 100% 100%;
+}
+
+.container .vector {
+  position: absolute;
+  width: 17px;
+  height: 20px;
+  top: 0;
+  left: 2px;
+}
+
+.container .frame-8 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/vector-8.svg);
+  background-size: 100% 100%;
+}
+
+.container .frame-9 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/vector-4.svg);
+  background-size: 100% 100%;
+}
+
+.container .frame-10 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+  background-image: url(./img/vector-3.svg);
+  background-size: 100% 100%;
+}

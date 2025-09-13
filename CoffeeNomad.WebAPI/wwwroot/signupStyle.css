@@ -1,0 +1,886 @@
+.element-sign-up-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: var(--primitives-color-gray-50);
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 701px;
+  min-height: 1024px;
+}
+
+.element-sign-up-light .login-details {
+  display: inline-flex;
+  height: 1024px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-9)
+    var(--primitives-other-gap-9) 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .div {
+  display: inline-flex;
+  justify-content: center;
+  padding: 184px 120px;
+  align-self: stretch;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-xl2);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .logo {
+  display: flex;
+  width: 180px;
+  align-items: center;
+  gap: 14.21px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 176.38px;
+  align-items: center;
+  position: relative;
+}
+
+.element-sign-up-light .coffee {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.84px;
+  font-family: "Unbounded-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primitives-color-tertiary-600);
+  font-size: 16.7px;
+  letter-spacing: -0.33px;
+  line-height: 21.7px;
+}
+
+.element-sign-up-light .text-wrapper {
+  position: relative;
+  width: 164.68px;
+  font-family: "FONTSPRING DEMO - Roc Grotesk Black-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primitives-color-tertiary-600);
+  font-size: 40.1px;
+  text-align: center;
+  letter-spacing: -0.80px;
+  line-height: 32.1px;
+}
+
+.element-sign-up-light .login-details-2 {
+  display: flex;
+  width: 445px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .welcomeback-fabiana {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--heading-h3-bold-font-family);
+  font-weight: var(--heading-h3-bold-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--heading-h3-bold-font-size);
+  letter-spacing: var(--heading-h3-bold-letter-spacing);
+  line-height: var(--heading-h3-bold-line-height);
+  font-style: var(--heading-h3-bold-font-style);
+}
+
+.element-sign-up-light .welcomeback-fabiana-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-600);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-sign-up-light .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-9);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-2-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-3);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-500);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-sign-up-light .frame-7 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-2-duplicate);
+  padding: var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate)
+    var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-md);
+  border: 1px solid;
+  border-color: var(--primitives-color-gray-100);
+}
+
+.element-sign-up-light .frame-8 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.element-sign-up-light .placeholder {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-sign-up-light .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-11)
+    var(--primitives-other-gap-9) var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-tertiary-500);
+  border-radius: var(--primitives-other-radius-full-corner);
+}
+
+.element-sign-up-light .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-6);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-netural-white);
+  font-size: var(--body-m-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-sign-up-light .social-login {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .already-an-account-wrapper {
+  display: flex;
+  width: 445px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--primitives-other-gap-5-duplicate);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .already-an-account {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Unbounded-Light", Helvetica;
+  font-weight: 400;
+  color: var(--primitives-color-dark-500);
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: -0.28px;
+  line-height: 14px;
+}
+
+.element-sign-up-light .span {
+  font-weight: var(--body-s-regular-font-weight);
+  color: #080613;
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  font-family: var(--body-s-regular-font-family);
+  font-style: var(--body-s-regular-font-style);
+  font-size: var(--body-s-regular-font-size);
+}
+
+.element-sign-up-light .text-wrapper-2 {
+  font-family: var(--body-m-medium-font-family);
+  font-weight: var(--body-m-medium-font-weight);
+  color: #4d3a92;
+  font-size: var(--body-m-medium-font-size);
+  letter-spacing: var(--body-m-medium-letter-spacing);
+  line-height: var(--body-m-medium-line-height);
+  font-style: var(--body-m-medium-font-style);
+}
+
+.element-sign-up-light .illustration {
+  width: 739px;
+  height: 1024px;
+  top: 15px;
+  left: 701px;
+}
+
+.element-sign-up-light .banner {
+  width: 705px;
+  height: 992px;
+  top: 16px;
+  left: 17px;
+}
+/* Original CSS code should be injected here */
+
+/* Additional styles for semantic HTML elements and accessibility improvements */
+.element-sign-up-light .placeholder {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  font-style: var(--body-m-regular-font-style);
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.element-sign-up-light .placeholder::placeholder {
+  color: var(--primitives-color-gray-400);
+}
+
+.element-sign-up-light .placeholder:focus {
+  outline: 2px solid var(--primitives-color-tertiary-500);
+  outline-offset: -2px;
+}
+
+.element-sign-up-light .text-wrapper-2 {
+  font-family: var(--body-m-medium-font-family);
+  font-weight: var(--body-m-medium-font-weight);
+  color: #4d3a92;
+  font-size: var(--body-m-medium-font-size);
+  letter-spacing: var(--body-m-medium-letter-spacing);
+  line-height: var(--body-m-medium-line-height);
+  font-style: var(--body-m-medium-font-style);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.element-sign-up-light .text-wrapper-2:hover {
+  text-decoration: underline;
+}
+
+.element-sign-up-light .text-wrapper-2:focus {
+  outline: 2px solid var(--primitives-color-tertiary-500);
+  outline-offset: 2px;
+}
+
+.element-sign-up-light .button:hover {
+  background-color: var(--primitives-color-tertiary-600);
+}
+
+.element-sign-up-light .button:focus {
+  outline: 2px solid var(--primitives-color-tertiary-700);
+  outline-offset: 2px;
+}
+
+.element-sign-up-light .button:active {
+  background-color: var(--primitives-color-tertiary-700);
+}
+
+.element-sign-up-light .frame-7:focus-within {
+  border-color: var(--primitives-color-tertiary-500);
+  box-shadow: 0 0 0 1px var(--primitives-color-tertiary-500);
+}
+
+.element-sign-up-light
+  .input-field
+  input:invalid:not(:placeholder-shown)
+  + .error-message {
+  display: block;
+  color: var(--primitives-color-error-500);
+  font-size: var(--body-XS-regular-font-size);
+  margin-top: 4px;
+}
+
+.element-sign-up-light .error-message {
+  display: none;
+}
+
+.element-sign-up-light {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  background-color: var(--primitives-color-gray-50);
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 701px;
+  min-height: 1024px;
+}
+
+.element-sign-up-light .login-details {
+  display: inline-flex;
+  height: 1024px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-9)
+    var(--primitives-other-gap-9) 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .div {
+  display: inline-flex;
+  justify-content: center;
+  padding: 184px 120px;
+  align-self: stretch;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-xl2);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .logo {
+  display: flex;
+  width: 180px;
+  align-items: center;
+  gap: 14.21px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 176.38px;
+  align-items: center;
+  position: relative;
+}
+
+.element-sign-up-light .coffee {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.84px;
+  font-family: "Unbounded-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primitives-color-tertiary-600);
+  font-size: 16.7px;
+  letter-spacing: -0.33px;
+  line-height: 21.7px;
+}
+
+.element-sign-up-light .text-wrapper {
+  position: relative;
+  width: 164.68px;
+  font-family: "FONTSPRING DEMO - Roc Grotesk Black-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primitives-color-tertiary-600);
+  font-size: 40.1px;
+  text-align: center;
+  letter-spacing: -0.80px;
+  line-height: 32.1px;
+}
+
+.element-sign-up-light .login-details-2 {
+  display: flex;
+  width: 445px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .welcomeback-fabiana {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--heading-h3-bold-font-family);
+  font-weight: var(--heading-h3-bold-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--heading-h3-bold-font-size);
+  letter-spacing: var(--heading-h3-bold-letter-spacing);
+  line-height: var(--heading-h3-bold-line-height);
+  font-style: var(--heading-h3-bold-font-style);
+}
+
+.element-sign-up-light .welcomeback-fabiana-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-600);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-sign-up-light .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-9);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-2-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .frame-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-3);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-500);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-sign-up-light .frame-7 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-2-duplicate);
+  padding: var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate)
+    var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-md);
+  border: 1px solid;
+  border-color: var(--primitives-color-gray-100);
+}
+
+.element-sign-up-light .frame-8 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.element-sign-up-light .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-11)
+    var(--primitives-other-gap-9) var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-tertiary-500);
+  border-radius: var(--primitives-other-radius-full-corner);
+  cursor: pointer;
+}
+
+.element-sign-up-light .frame-9 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-6);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .button-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-netural-white);
+  font-size: var(--body-m-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-sign-up-light .social-login {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .already-an-account-wrapper {
+  display: flex;
+  width: 445px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--primitives-other-gap-5-duplicate);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .already-an-account {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Unbounded-Light", Helvetica;
+  font-weight: 400;
+  color: var(--primitives-color-dark-500);
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: -0.28px;
+  line-height: 14px;
+}
+
+.element-sign-up-light .span {
+  font-weight: var(--body-s-regular-font-weight);
+  color: #080613;
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  font-family: var(--body-s-regular-font-family);
+  font-style: var(--body-s-regular-font-style);
+  font-size: var(--body-s-regular-font-size);
+}
+
+.element-sign-up-light .illustration {
+  width: 739px;
+  height: 1024px;
+  top: -1px;
+  left: 701px;
+}
+
+.element-sign-up-light .banner {
+  position: relative;
+  width: 705px;
+  height: 992px;
+  top: 16px;
+  left: 17px;
+  background-color: #f7f7f7;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.element-sign-up-light .overlap {
+  position: relative;
+  height: 1016px;
+  top: -24px;
+  border-radius: 24px;
+}
+
+.element-sign-up-light .barista-working-at-wrapper {
+  position: absolute;
+  width: 705px;
+  height: 1016px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.element-sign-up-light .barista-working-at {
+  position: absolute;
+  width: 705px;
+  height: 992px;
+  top: 24px;
+  left: 0;
+  object-fit: cover;
+}
+
+.element-sign-up-light .overlap-group-wrapper {
+  position: absolute;
+  width: 630px;
+  height: 318px;
+  top: 641px;
+  left: 38px;
+  background-color: #ffffff42;
+  border-radius: 21px;
+  overflow: hidden;
+  backdrop-filter: blur(24.25px) brightness(100%);
+  -webkit-backdrop-filter: blur(24.25px) brightness(100%);
+}
+
+.element-sign-up-light .overlap-group {
+  position: relative;
+  width: 572px;
+  height: 270px;
+  top: 31px;
+  left: 33px;
+}
+
+.element-sign-up-light .frame-10 {
+  display: flex;
+  flex-direction: column;
+  width: 564px;
+  align-items: flex-start;
+  gap: 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.element-sign-up-light .frame-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .img {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .system-designed-to {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--heading-h4-medium-font-family);
+  font-weight: var(--heading-h4-medium-font-weight);
+  color: var(--neutralwhite);
+  font-size: var(--heading-h4-medium-font-size);
+  letter-spacing: var(--heading-h4-medium-letter-spacing);
+  line-height: var(--heading-h4-medium-line-height);
+  font-style: var(--heading-h4-medium-font-style);
+}
+
+.element-sign-up-light .frame-12 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-sign-up-light .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-l-medium-font-family);
+  font-weight: var(--body-l-medium-font-weight);
+  color: var(--neutralwhite);
+  font-size: var(--body-l-medium-font-size);
+  letter-spacing: var(--body-l-medium-letter-spacing);
+  line-height: var(--body-l-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--body-l-medium-font-style);
+}
+
+.element-sign-up-light .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--body-XS-regular-font-family);
+  font-weight: var(--body-XS-regular-font-weight);
+  color: var(--neutralwhite);
+  font-size: var(--body-XS-regular-font-size);
+  letter-spacing: var(--body-XS-regular-letter-spacing);
+  line-height: var(--body-XS-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-XS-regular-font-style);
+}
+
+.element-sign-up-light .frame-13 {
+  position: absolute;
+  width: 107px;
+  height: 55px;
+  top: 215px;
+  left: 465px;
+}

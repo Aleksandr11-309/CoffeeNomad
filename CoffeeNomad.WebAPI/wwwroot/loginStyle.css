@@ -1,0 +1,486 @@
+.element-login-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: var(--primitives-color-gray-50);
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 701px;
+  min-height: 1024px;
+}
+
+.element-login-light .login-details {
+  display: inline-flex;
+  height: 1024px;
+  align-items: center;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-9)
+    var(--primitives-other-gap-9) 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-login-light .div {
+  display: inline-flex;
+  justify-content: center;
+  padding: 184px 120px;
+  align-self: stretch;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-xl2);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-login-light .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-login-light .logo {
+  display: flex;
+  width: 180px;
+  align-items: center;
+  gap: 14.21px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-login-light .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 176.38px;
+  align-items: center;
+  position: relative;
+}
+
+.element-login-light .coffee {
+  position: relative;
+  align-self: stretch;
+  margin-top: -0.84px;
+  font-family: "Unbounded-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--primitives-color-tertiary-600);
+  font-size: 16.7px;
+  letter-spacing: -0.33px;
+  line-height: 21.7px;
+}
+
+.element-login-light .text-wrapper {
+  position: relative;
+  width: 164.68px;
+  font-family: "FONTSPRING DEMO - Roc Grotesk Black-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--primitives-color-tertiary-600);
+  font-size: 40.1px;
+  text-align: center;
+  letter-spacing: -0.80px;
+  line-height: 32.1px;
+}
+
+.element-login-light .login-details-2 {
+  display: flex;
+  width: 445px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-login-light .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-login-light .welcomeback-fabiana {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--heading-h3-bold-font-family);
+  font-weight: var(--heading-h3-bold-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--heading-h3-bold-font-size);
+  letter-spacing: var(--heading-h3-bold-letter-spacing);
+  line-height: var(--heading-h3-bold-line-height);
+  font-style: var(--heading-h3-bold-font-style);
+}
+
+.element-login-light .welcomeback-fabiana-2 {
+  align-self: stretch;
+  color: var(--primitives-color-gray-600);
+  position: relative;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-login-light .frame-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-login-light .frame-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-login-light .frame-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-9);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-login-light .input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-2-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-login-light .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-3);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-login-light .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-500);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-login-light .frame-8 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-2-duplicate);
+  padding: var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate)
+    var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-md);
+  border: 1px solid;
+  border-color: var(--primitives-color-gray-100);
+}
+
+.element-login-light .frame-9 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.element-login-light .placeholder {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-login-light .frame-10 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-login-light .checkbox {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-3);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.element-login-light .checkbox-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+
+.element-login-light .overlap-group {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  top: 4px;
+  left: 4px;
+  background-color: var(--primitives-color-tertiary-600);
+  border-radius: 4px;
+}
+
+.element-login-light .check-tick {
+  position: absolute;
+  width: 10px;
+  height: 8px;
+  top: 4px;
+  left: 3px;
+}
+
+.element-login-light .text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-login-light .welcomeback-fabiana-3 {
+  flex: 1;
+  color: var(--primitives-color-dark-500);
+  text-align: right;
+  position: relative;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-login-light .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-11)
+    var(--primitives-other-gap-9) var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-tertiary-500);
+  border-radius: var(--primitives-other-radius-full-corner);
+}
+
+.element-login-light .frame-11 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-6);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-login-light .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-netural-white);
+  font-size: var(--body-m-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-login-light .social-login {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-login-light .don-t-have-an-wrapper {
+  display: flex;
+  width: 445px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--primitives-other-gap-5-duplicate);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-login-light .don-t-have-an {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Unbounded-Light", Helvetica;
+  font-weight: 400;
+  color: var(--primitives-color-dark-500);
+  font-size: 14px;
+  text-align: right;
+  letter-spacing: -0.28px;
+  line-height: 14px;
+}
+
+.element-login-light .span {
+  font-weight: var(--body-s-regular-font-weight);
+  color: #080613;
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  font-family: var(--body-s-regular-font-family);
+  font-style: var(--body-s-regular-font-style);
+  font-size: var(--body-s-regular-font-size);
+}
+
+.element-login-light .text-wrapper-2 {
+  font-family: var(--body-m-medium-font-family);
+  font-weight: var(--body-m-medium-font-weight);
+  color: #4d3a92;
+  font-size: var(--body-m-medium-font-size);
+  letter-spacing: var(--body-m-medium-letter-spacing);
+  line-height: var(--body-m-medium-line-height);
+  font-style: var(--body-m-medium-font-style);
+}
+
+.element-login-light .illustration {
+  width: 739px;
+  height: 1024px;
+  top: 15px;
+  left: 701px;
+}
+
+.element-login-light .banner {
+  width: 705px;
+  height: 992px;
+  top: 16px;
+  left: 17px;
+}
+/* Original CSS code should be injected here */
+
+/* Additional styles for semantic HTML elements and accessibility */
+.element-login-light .checkbox-input {
+  position: absolute;
+  opacity: 0;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.element-login-light .checkbox-input:checked + .overlap-group {
+  background-color: var(--primitives-color-tertiary-600);
+}
+
+.element-login-light .checkbox-input:not(:checked) + .overlap-group {
+  background-color: transparent;
+  border: 2px solid var(--primitives-color-gray-300);
+}
+
+.element-login-light .checkbox-input:focus-visible + .overlap-group {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+.element-login-light .placeholder {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  padding: 0;
+}
+
+.element-login-light .placeholder:focus {
+  outline: none;
+}
+
+.element-login-light .frame-8:focus-within {
+  border-color: var(--primitives-color-tertiary-500);
+  box-shadow: 0 0 0 3px rgba(93, 73, 167, 0.1);
+}
+
+.element-login-light .button:hover {
+  background-color: var(--primitives-color-tertiary-600);
+  transform: translateY(-1px);
+  transition: all 0.2s ease;
+}
+
+.element-login-light .button:active {
+  transform: translateY(0);
+}
+
+.element-login-light .text-wrapper-2:hover {
+  text-decoration: underline;
+}
+
+.element-login-light .welcomeback-fabiana-3:hover {
+  text-decoration: underline;
+}
+
+.element-login-light .checkbox-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.element-login-light .text {
+  cursor: pointer;
+}

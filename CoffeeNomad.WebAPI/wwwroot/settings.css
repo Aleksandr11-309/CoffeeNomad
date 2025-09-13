@@ -1,0 +1,455 @@
+.all-destinations {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-13);
+  padding: 40px 48px 48px;
+  position: relative;
+}
+
+.all-destinations .header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-13);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: transparent;
+}
+
+.all-destinations .text {
+  height: 36px;
+  margin-top: -1.00px;
+  font-family: var(--heading-h3-medium-font-family);
+  font-weight: var(--heading-h3-medium-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--heading-h3-medium-font-size);
+  letter-spacing: var(--heading-h3-medium-letter-spacing);
+  line-height: var(--heading-h3-medium-line-height);
+  white-space: nowrap;
+  position: relative;
+  align-self: stretch;
+  font-style: var(--heading-h3-medium-font-style);
+}
+
+.all-destinations .bookings {
+  display: flex;
+  flex-direction: column;
+  width: 1344px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9);
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: var(--primitives-other-radius-xl);
+  border: 1px solid;
+  border-color: var(--primitives-color-gray-100);
+}
+
+.all-destinations .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-9);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.all-destinations .div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.all-destinations .text-wrapper {
+  position: relative;
+  flex: 1;
+  font-family: var(--body-XL-medium-font-family);
+  font-weight: var(--body-XL-medium-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-XL-medium-font-size);
+  letter-spacing: var(--body-XL-medium-letter-spacing);
+  line-height: var(--body-XL-medium-line-height);
+  font-style: var(--body-XL-medium-font-style);
+}
+
+.all-destinations .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: var(--primitives-other-gap-6) var(--primitives-other-gap-7)
+    var(--primitives-other-gap-6) var(--primitives-other-gap-7);
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: var(--primitives-other-radius-full-corner);
+  border: 1px solid;
+  border-color: var(--primitives-color-gray-100);
+}
+
+.all-destinations .frame-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.all-destinations .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-s-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-s-regular-font-style);
+}
+
+.all-destinations .all-settings {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-9);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.all-destinations .div-2 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-9);
+  padding: 0px 0px var(--primitives-other-gap-9) 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: var(--primitives-color-gray-100);
+}
+
+.all-destinations .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: var(--primitives-other-radius-lg); */
+  gap: 10px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.all-destinations .text-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: var(--body-s-medium-font-family);
+  font-weight: var(--body-s-medium-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-s-medium-font-size);
+  letter-spacing: var(--body-s-medium-letter-spacing);
+  line-height: var(--body-s-medium-line-height);
+  font-style: var(--body-s-medium-font-style);
+}
+
+.all-destinations .text-3 {
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-500);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  position: relative;
+  align-self: stretch;
+  font-style: var(--body-s-regular-font-style);
+}
+
+.all-destinations .frame-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: var(--primitives-other-gap-6)
+    var(--primitives-other-gap-9)
+    var(--primitives-other-gap-6)
+    var(--primitives-other-gap-9);
+  position: relative;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-gray-50);
+  border-radius: var(--primitives-other-radius-md);
+}
+
+.all-destinations .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.all-destinations .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--text-sm-regular-font-family);
+  font-weight: var(--text-sm-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--text-sm-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--text-sm-regular-letter-spacing);
+  line-height: var(--text-sm-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--text-sm-regular-font-style);
+}
+
+.all-destinations .huge-icon-arrows {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+
+.all-destinations .toggle {
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  gap: var(--primitives-utilities-gap-3);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.all-destinations .switch-container {
+  position: relative;
+  align-self: stretch;
+  width: 40px;
+  background-color: var(--primitives-color-success-500);
+  border-radius: 99999px;
+}
+
+.all-destinations .switch {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 18px;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: 100px;
+  box-shadow: var(--small);
+}
+
+.all-destinations .email-notificatiions {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-9);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+/* Original CSS code should be injected here */
+
+/* Additional styles for accessibility and semantic improvements */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.switch-input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-input:focus + .switch {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+.switch-input:focus-visible + .switch {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+/* Ensure toggle switches maintain their visual state */
+.switch-input:checked + .switch {
+  /* Switch is already styled as "on" in the original CSS */
+}
+
+.switch-input:not(:checked) + .switch {
+  left: 2px;
+  background-color: var(--primitives-color-gray-300);
+}
+
+.switch-input:not(:checked) ~ .switch-container {
+  background-color: var(--primitives-color-gray-200);
+}
+
+/* Maintain button styling for interactive elements */
+.all-destinations .button:hover,
+.all-destinations .frame-wrapper:hover {
+  background-color: var(--primitives-color-gray-50);
+  transition: background-color 0.2s ease;
+}
+
+.all-destinations .button:focus-visible,
+.all-destinations .frame-wrapper:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+/* Ensure proper cursor for interactive elements */
+.all-destinations .button,
+.all-destinations .frame-wrapper,
+.switch-container {
+  cursor: pointer;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .all-destinations {
+    padding: 20px 16px 24px;
+  }
+
+  .all-destinations .bookings {
+    width: 100%;
+    max-width: none;
+  }
+
+  .all-destinations .div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .all-destinations .button {
+    align-self: flex-end;
+  }
+}
+
+.toggle {
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  gap: var(--primitives-utilities-gap-3);
+  position: relative;
+}
+
+.toggle .switch-container {
+  position: relative;
+  align-self: stretch;
+  width: 40px;
+  background-color: green;
+  border-radius: 99999px;
+}
+
+.toggle .switch {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 18px;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: 100px;
+  box-shadow: var(--small);
+}
+/* Original CSS code should be injected here */
+
+/* Enhanced toggle switch with accessibility and interaction support */
+.toggle {
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  gap: var(--primitives-utilities-gap-3);
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.toggle:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+  border-radius: 99999px;
+}
+
+.toggle:hover .switch-container {
+  opacity: 0.9;
+}
+
+.toggle .switch-container {
+  position: relative;
+  align-self: stretch;
+  width: 40px;
+  background-color: var(--primitives-color-success-500);
+  border-radius: 99999px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.toggle[aria-checked="false"] .switch-container {
+  background-color: gray;
+}
+
+.toggle .switch {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 18px;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: 100px;
+  box-shadow: var(--small);
+  transition: left 0.2s ease-in-out;
+}
+
+.toggle[aria-checked="false"] .switch {
+  left: 2px;
+}
+
+/* Keyboard navigation support */
+.toggle:focus-visible .switch {
+  box-shadow: var(--small), 0 0 0 2px rgba(74, 144, 226, 0.3);
+}
+
+/* Active state for better user feedback */
+.toggle:active .switch {
+  transform: scale(0.95);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  .toggle,
+  .toggle .switch-container,
+  .toggle .switch {
+    transition: none;
+  }
+}

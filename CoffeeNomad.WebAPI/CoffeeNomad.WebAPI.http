@@ -1,0 +1,6 @@
+@CoffeeNomad.WebAPI_HostAddress = http://localhost:5181
+
+GET {{CoffeeNomad.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,542 @@
+.element-reset-password {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: var(--primitives-color-gray-50);
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 701px;
+  min-height: 1024px;
+}
+
+.element-reset-password .forgot-password {
+  display: inline-flex;
+  height: 1024px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-9)
+    var(--primitives-other-gap-9) 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .forgot-password-wrapper {
+  justify-content: center;
+  padding: 184px 120px;
+  align-self: stretch;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-xl2);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .huge-icon-arrows {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.element-reset-password .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-reset-password .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .welcomeback-fabiana {
+  position: relative;
+  width: 445px;
+  margin-top: -1.00px;
+  font-family: var(--heading-h3-medium-font-family);
+  font-weight: var(--heading-h3-medium-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--heading-h3-medium-font-size);
+  letter-spacing: var(--heading-h3-medium-letter-spacing);
+  line-height: var(--heading-h3-medium-line-height);
+  font-style: var(--heading-h3-medium-font-style);
+}
+
+.element-reset-password .p {
+  position: relative;
+  width: 445px;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-500);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-reset-password .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-2-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-3);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-500);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-reset-password .frame-5 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-2-duplicate);
+  padding: var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate)
+    var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-md);
+  border: 1px solid;
+  border-color: var(--primitives-color-gray-100);
+}
+
+.element-reset-password .frame-6 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.element-reset-password .placeholder {
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-reset-password .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-11)
+    var(--primitives-other-gap-9) var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-tertiary-500);
+  border-radius: var(--primitives-other-radius-full-corner);
+}
+
+.element-reset-password .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-6);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-netural-white);
+  font-size: var(--body-m-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-reset-password .illustration {
+  width: 739px;
+  height: 1024px;
+  top: 15px;
+  left: 701px;
+}
+
+.element-reset-password .banner {
+  width: 705px;
+  height: 992px;
+  top: 16px;
+  left: 17px;
+}
+/* Original CSS code should be injected here */
+
+/* Additional styles for semantic HTML elements */
+.element-reset-password .placeholder {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  flex: 1;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  font-style: var(--body-m-regular-font-style);
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.element-reset-password .placeholder::placeholder {
+  color: var(--primitives-color-gray-500);
+}
+
+.element-reset-password .placeholder:focus {
+  outline: 2px solid var(--primitives-color-primary-500);
+  outline-offset: -2px;
+}
+
+.element-reset-password .button:hover {
+  background-color: var(--primitives-color-tertiary-600);
+  cursor: pointer;
+}
+
+.element-reset-password .button:focus-visible {
+  outline: 2px solid var(--primitives-color-primary-500);
+  outline-offset: 2px;
+}
+
+.element-reset-password .button:active {
+  background-color: var(--primitives-color-tertiary-700);
+}
+
+.element-reset-password .frame:hover {
+  cursor: pointer;
+}
+
+.element-reset-password .frame:focus-visible {
+  outline: 2px solid var(--primitives-color-primary-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.element-reset-password .frame-5:focus-within {
+  border-color: var(--primitives-color-primary-500);
+  box-shadow: 0 0 0 1px var(--primitives-color-primary-500);
+}
+
+.element-reset-password .input-field[aria-invalid="true"] .frame-5 {
+  border-color: var(--primitives-color-error-500);
+}
+
+.element-reset-password .input-field[aria-invalid="true"] .placeholder:focus {
+  outline-color: var(--primitives-color-error-500);
+}
+
+.element-reset-password .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-netural-white);
+  font-size: var(--body-m-regular-font-size);
+  text-align: center;
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+  pointer-events: none;
+}
+
+.element-reset-password {
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  background-color: var(--primitives-color-gray-50);
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 701px;
+  min-height: 100vh;
+}
+
+.element-reset-password .forgot-password {
+  display: inline-flex;
+  min-height: 100vh;
+  align-items: flex-start;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-9)
+    var(--primitives-other-gap-9) 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .forgot-password-wrapper {
+  justify-content: center;
+  padding: 184px 120px;
+  align-self: stretch;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-xl2);
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+  flex: 0 0 auto;
+  cursor: pointer;
+  padding: 4px;
+  margin: -4px;
+  border-radius: 4px;
+}
+
+.element-reset-password .huge-icon-arrows {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.element-reset-password .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-m-regular-font-family);
+  font-weight: var(--body-m-regular-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--body-m-regular-font-size);
+  letter-spacing: var(--body-m-regular-letter-spacing);
+  line-height: var(--body-m-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-m-regular-font-style);
+}
+
+.element-reset-password .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .welcomeback-fabiana {
+  position: relative;
+  width: 445px;
+  margin-top: -1.00px;
+  font-family: var(--heading-h3-medium-font-family);
+  font-weight: var(--heading-h3-medium-font-weight);
+  color: var(--primitives-color-dark-500);
+  font-size: var(--heading-h3-medium-font-size);
+  letter-spacing: var(--heading-h3-medium-letter-spacing);
+  line-height: var(--heading-h3-medium-line-height);
+  font-style: var(--heading-h3-medium-font-style);
+}
+
+.element-reset-password .p {
+  position: relative;
+  width: 445px;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-500);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-reset-password .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--primitives-other-gap-2-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .frame-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-3);
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.element-reset-password .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: var(--body-s-regular-font-family);
+  font-weight: var(--body-s-regular-font-weight);
+  color: var(--primitives-color-gray-500);
+  font-size: var(--body-s-regular-font-size);
+  letter-spacing: var(--body-s-regular-letter-spacing);
+  line-height: var(--body-s-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--body-s-regular-font-style);
+}
+
+.element-reset-password .frame-5 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-2-duplicate);
+  padding: var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate)
+    var(--primitives-other-gap-3-duplicate)
+    var(--primitives-other-gap-4-duplicate);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-netural-white);
+  border-radius: var(--primitives-other-radius-md);
+  border: 1px solid;
+  border-color: var(--primitives-color-gray-100);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.element-reset-password .frame-6 {
+  display: flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-5);
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.element-reset-password .button {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: var(--primitives-other-gap-9) var(--primitives-other-gap-11)
+    var(--primitives-other-gap-9) var(--primitives-other-gap-11);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--primitives-color-tertiary-500);
+  border-radius: var(--primitives-other-radius-full-corner);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.element-reset-password .frame-7 {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--primitives-other-gap-6);
+  position: relative;
+  flex: 0 0 auto;
+}

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Coffee Nomad - Sign Up</title>
+    <link rel="stylesheet" href="~/globals.css" />
+    <link rel="stylesheet" href="~/styleguide.css" />
+    <link rel="stylesheet" href="~/signupStyle.css" />
+</head>
+<body>
+    <main class="element-sign-up-light">
+        <section class="login-details">
+            <div class="div">
+                <div class="frame">
+                    <header class="logo">
+                        <div class="frame-2">
+                            <div class="coffee">&nbsp;&nbsp; Coffee</div>
+                            <div class="text-wrapper">NOMAD</div>
+                        </div>
+                    </header>
+                    <div class="login-details-2">
+                        <div class="frame-3">
+                            <h1 class="welcomeback-fabiana">Sign Up</h1>
+                            <p class="welcomeback-fabiana-2">Create your account</p>
+                        </div>
+                        <form class="frame-4" novalidate>
+                            <div class="frame-wrapper">
+                                <div class="frame-5">
+                                    <div class="input-field">
+                                        <div class="frame-6">
+                                            <label for="name" class="label">Name</label>
+                                        </div>
+                                        <div class="frame-7">
+                                            <div class="frame-8">
+                                                <input type="text"
+                                                       id="name"
+                                                       name="name"
+                                                       class="placeholder"
+                                                       placeholder="Name"
+                                                       required
+                                                       aria-describedby="name-error" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-field">
+                                        <div class="frame-6">
+                                            <label for="email" class="label">Email Address</label>
+                                        </div>
+                                        <div class="frame-7">
+                                            <div class="frame-8">
+                                                <input type="email"
+                                                       id="email"
+                                                       name="email"
+                                                       class="placeholder"
+                                                       placeholder="example@gmail.com"
+                                                       required
+                                                       aria-describedby="email-error" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-field">
+                                        <div class="frame-6">
+                                            <label for="password" class="label">Password</label>
+                                        </div>
+                                        <div class="frame-7">
+                                            <div class="frame-8">
+                                                <input type="password"
+                                                       id="password"
+                                                       name="password"
+                                                       class="placeholder"
+                                                       placeholder="••••••••••"
+                                                       required
+                                                       minlength="8"
+                                                       aria-describedby="password-error" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="button">
+                                <div class="frame-9">
+                                    <span class="button-2">Sign Up</span>
+                                </div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="social-login">
+                    <div class="already-an-account-wrapper">
+                        <p class="already-an-account">
+                            <span class="span">Already an account? </span>
+                            <a href="#" class="text-wrapper-2">Sign In</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="illustration" aria-label="Coffee shop illustration">
+            <img class="banner" src="~/Banner.svg" alt="Coffee shop interior with barista working" />
+        </aside>
+    </main>
+
+    <script src="~/signup.js"></script>
+</body>
+</html>
