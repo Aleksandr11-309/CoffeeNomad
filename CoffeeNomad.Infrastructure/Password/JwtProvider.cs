@@ -13,7 +13,7 @@ namespace CoffeeNomad.Infrastructure.Password
 
         public string GenerateToken(User userEntity)
         {
-            Claim[] claims = [new("userId", userEntity.Id.ToString()), new("userName", userEntity.FirstName.ToString())];
+            Claim[] claims = [new("userId", userEntity.Id.ToString()), new("userName", userEntity.Name.ToString())];
 
             var signingCredentials = new SigningCredentials(
                 new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_option.SecretKey)),

@@ -24,11 +24,12 @@ namespace CoffeeNomad.DataBase.Repositories
             await _context.SaveChangesAsync();
         }
 
-        public async Task CreateAccount(User user, string password)
+        public async Task CreateAccount(User user, string hashedPassword)
         {
-            var result = User.CreateUser(user, password);
+            //var result = User.CreateUser(user, password);
 
-            await _context.AddAsync(result);
+            user.Password = hashedPassword; // Просто обновляем пароль
+            await _context.AddAsync(user);
             await _context.SaveChangesAsync();
         }
 
@@ -52,6 +53,11 @@ namespace CoffeeNomad.DataBase.Repositories
 
         public async Task<User> GetByEmail(string email)
         {
+            if (string.IsNullOrEmpty(email))
+            {
+                return null;
+            }
+
             var result = await _context.users
                 .AsNoTracking()
                 .FirstOrDefaultAsync(x => x.Email == email);

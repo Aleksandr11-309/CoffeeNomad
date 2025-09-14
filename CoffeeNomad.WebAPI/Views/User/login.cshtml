@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Coffee Nomad - Login</title>
+    <link rel="stylesheet" href="~/globals.css" />
+    <link rel="stylesheet" href="~/styleguide.css" />
+    <link rel="stylesheet" href="~/loginStyle.css" />
+</head>
+<body>
+    <main class="element-login-light">
+        <section class="login-details">
+            <div class="div">
+                <header class="frame">
+                    <div class="logo">
+                        <div class="frame-2">
+                            <div class="coffee">&nbsp;&nbsp; Coffee</div>
+                            <div class="text-wrapper">NOMAD</div>
+                        </div>
+                    </div>
+                    <div class="login-details-2">
+                        <div class="frame-3">
+                            <h1 class="welcomeback-fabiana">Welcome Jack 👋</h1>
+                            <p class="welcomeback-fabiana-2">Login to your account</p>
+                        </div>
+                        <form class="frame-4" role="form" aria-label="Login form">
+                            <div class="frame-5">
+                                <div class="frame-6">
+                                    <div class="input-field">
+                                        <div class="frame-7">
+                                            <label for="email" class="label">Email Address</label>
+                                        </div>
+                                        <div class="frame-8">
+                                            <div class="frame-9">
+                                                <input type="email"
+                                                       id="email"
+                                                       name="email"
+                                                       class="placeholder"
+                                                       placeholder="example@gmail.com"
+                                                       required
+                                                       aria-describedby="email-error"
+                                                       autocomplete="email" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-field">
+                                        <div class="frame-7">
+                                            <label for="password" class="label">Password</label>
+                                        </div>
+                                        <div class="frame-8">
+                                            <div class="frame-9">
+                                                <input type="password"
+                                                       id="password"
+                                                       name="password"
+                                                       class="placeholder"
+                                                       placeholder="••••••••••"
+                                                       required
+                                                       aria-describedby="password-error"
+                                                       autocomplete="current-password" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="frame-10">
+                                    <div class="checkbox">
+                                        <div class="checkbox-icon">
+                                            <input type="checkbox"
+                                                   id="remember-me"
+                                                   name="remember-me"
+                                                   class="checkbox-input"
+                                                   aria-describedby="remember-me-label" />
+                                            <div class="overlap-group">
+                                                <img class="check-tick" src="img/check-tick.svg" alt="" role="presentation" />
+                                            </div>
+                                        </div>
+                                        <label for="remember-me" id="remember-me-label" class="text">Remember Me</label>
+                                    </div>
+                                    <a href="#forgot-password" class="welcomeback-fabiana-3">Forgot Password?</a>
+                                </div>
+                            </div>
+                            <button type="submit" class="button" aria-label="Login to your account">
+                                <div class="frame-11">
+                                    <span class="button-2">Login</span>
+                                </div>
+                            </button>
+                        </form>
+                    </div>
+                </header>
+                <footer class="social-login">
+                    <div class="don-t-have-an-wrapper">
+                        <p class="don-t-have-an">
+                            <span class="span">Don't have an account? </span>
+                            <a href="#sign-up" class="text-wrapper-2">Sign Up</a>
+                        </p>
+                    </div>
+                </footer>
+            </div>
+        </section>
+        <aside class="illustration" aria-label="Coffee shop illustration">
+            <img class="banner" src="~/Banner.svg" alt="Coffee shop interior with barista working" />
+        </aside>
+    </main>
+
+    <script src="~/login.js"></script>
+</body>
+</html>

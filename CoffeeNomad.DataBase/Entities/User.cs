@@ -6,9 +6,7 @@ namespace CoffeeNomad.DataBase.Entities
     {
         public Guid Id { get; set; }
 
-        public string FirstName { get; set; }
-
-        public string LastName { get; set; }
+        public string Name { get; set; }
 
         public string Email { get; set; }
 
@@ -16,7 +14,7 @@ namespace CoffeeNomad.DataBase.Entities
 
         public int MobileNumber { get; set; }
 
-        public string Location { get; set; }
+        //public string Location { get; set; }
 
         public Roles Role { get; set; } = Roles.Costumer;
 
@@ -25,12 +23,11 @@ namespace CoffeeNomad.DataBase.Entities
             return new User
             {
                 Id = user.Id,
-                FirstName = user.FirstName,
-                LastName = user.LastName,
+                Name = user.Name,
                 Email = user.Email,
                 Password = password,
                 MobileNumber = user.MobileNumber,
-                Location = user.Location,
+                //Location = user.Location,
                 Role = user.Role,
             };
         }

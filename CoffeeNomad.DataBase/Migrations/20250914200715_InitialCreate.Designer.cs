@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CoffeeNomad.DataBase.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20250913175354_InitialCreate")]
+    [Migration("20250914200715_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -127,20 +127,12 @@ namespace CoffeeNomad.DataBase.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<string>("Location")
-                        .IsRequired()
-                        .HasColumnType("text");
-
                     b.Property<int>("MobileNumber")
                         .HasColumnType("integer");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("Password")
                         .IsRequired()

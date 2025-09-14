@@ -26,13 +26,13 @@ namespace CoffeeNomad.WebAPI.Controllers
         public async Task<IActionResult> GetForgot() => View("forgot");
 
         [HttpPost("register")]
-        public async Task<IActionResult> Regitster([FromBody] RegisterContract user)
+        public async Task<IActionResult> Register([FromBody] RegisterContract user)
         {
-            var email = _userService.GetByEmail(user.Email);
-            if (email.Result != null)
-            {
-                return Ok("Вы уже зарегистрированы под этой почтой");
-            }
+            //var email = _userService.GetByEmail(user.Email);
+            //if (email.Result != null)
+            //{
+            //    return Ok("Вы уже зарегистрированы под этой почтой");
+            //}
 
             await _userService.CreateUserProfile(user);
             return Ok();

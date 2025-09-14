@@ -29,20 +29,22 @@ namespace CoffeeNomad.Services
         {
             var user = _mapper.Map<User>(registerContract);
 
-            var password = _passwordHasher.GenerateTokenSHA(user.Password);
+            //var password = _passwordHasher.GenerateTokenSHA(user.Password);
+            var hashedPassword = _passwordHasher.GenerateTokenSHA(registerContract.Password);
 
-            await _repository.CreateAccount(user, password);
+            //await _repository.CreateAccount(user, password);
+            await _repository.CreateAccount(user, hashedPassword);
         }
 
         public async Task<string> Login(LoginContract login)
         {
             var user = await _repository.GetByEmail(login.Email);
 
+            if (user == null) throw new Exception("Такого пользователя с почтой не существует");
+
             var result = _passwordHasher.Verify(login.Password, user.Password);
 
             if (!result) throw new Exception("Неверный пароль");
-
-            if (user == null) throw new Exception("Такого пользователя с почтой не существует");
 
             var token = _jwtProvider.GenerateToken(user);
 
