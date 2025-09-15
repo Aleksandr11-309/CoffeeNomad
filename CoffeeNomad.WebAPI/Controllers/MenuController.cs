@@ -15,7 +15,7 @@ namespace CoffeeNomad.WebAPI.Controllers
         }
 
         [HttpGet("Index")]
-        public async Task<IActionResult> Index() => View("Index");
+        public async Task<IActionResult> Index() => View("index");
 
         [HttpGet("GetAll")]
         public async Task<IActionResult> GetAllCards() 

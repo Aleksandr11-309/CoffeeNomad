@@ -29,11 +29,9 @@ namespace CoffeeNomad.Services
         {
             var user = _mapper.Map<User>(registerContract);
 
-            //var password = _passwordHasher.GenerateTokenSHA(user.Password);
-            var hashedPassword = _passwordHasher.GenerateTokenSHA(registerContract.Password);
+            var password = _passwordHasher.GenerateTokenSHA(user.Password);
 
-            //await _repository.CreateAccount(user, password);
-            await _repository.CreateAccount(user, hashedPassword);
+            await _repository.CreateAccount(user, password);
         }
 
         public async Task<string> Login(LoginContract login)

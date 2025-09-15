@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const signupForm = document.querySelector('.frame-4');
+    const loginLink = document.querySelector('.text-wrapper-2');
 
     // Функция для валидации email
     function isValidEmail(email) {
@@ -66,9 +67,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 alert('Регистрация прошла успешно!');
                 window.location.href = '/User/login'; // Перенаправляем на страницу логина
             }
-        } catch (error) {
+        }
+        catch (error) {
             console.error('Ошибка:', error);
             alert('Произошла ошибка при регистрации. Пожалуйста, попробуйте позже.');
         }
+    });
+
+    // Обработка клика по ссылке "Sign In"
+    loginLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        window.location.href = '/User/login';
     });
 });

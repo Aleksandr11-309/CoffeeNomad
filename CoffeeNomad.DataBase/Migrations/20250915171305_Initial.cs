@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace CoffeeNomad.DataBase.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "ProductMenu",
+                name: "products",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -23,11 +23,11 @@ namespace CoffeeNomad.DataBase.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ProductMenu", x => x.Id);
+                    table.PrimaryKey("PK_products", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "User",
+                name: "users",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -39,11 +39,11 @@ namespace CoffeeNomad.DataBase.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_User", x => x.Id);
+                    table.PrimaryKey("PK_users", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Cart",
+                name: "carts",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -54,23 +54,23 @@ namespace CoffeeNomad.DataBase.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cart", x => x.Id);
+                    table.PrimaryKey("PK_carts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Cart_ProductMenu_ProductId",
+                        name: "FK_carts_products_ProductId",
                         column: x => x.ProductId,
-                        principalTable: "ProductMenu",
+                        principalTable: "products",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Cart_User_UserId",
+                        name: "FK_carts_users_UserId",
                         column: x => x.UserId,
-                        principalTable: "User",
+                        principalTable: "users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Order",
+                name: "orders",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -84,34 +84,34 @@ namespace CoffeeNomad.DataBase.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Order", x => x.Id);
+                    table.PrimaryKey("PK_orders", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Order_User_UserId",
+                        name: "FK_orders_users_UserId",
                         column: x => x.UserId,
-                        principalTable: "User",
+                        principalTable: "users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Cart_ProductId",
-                table: "Cart",
+                name: "IX_carts_ProductId",
+                table: "carts",
                 column: "ProductId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Cart_UserId",
-                table: "Cart",
+                name: "IX_carts_UserId",
+                table: "carts",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_OrderId",
-                table: "Order",
+                name: "IX_orders_OrderId",
+                table: "orders",
                 column: "OrderId",
                 unique: true);
 
             migrationBuilder.CreateIndex(
-                name: "IX_Order_UserId",
-                table: "Order",
+                name: "IX_orders_UserId",
+                table: "orders",
                 column: "UserId");
         }
 
@@ -119,16 +119,16 @@ namespace CoffeeNomad.DataBase.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Cart");
+                name: "carts");
 
             migrationBuilder.DropTable(
-                name: "Order");
+                name: "orders");
 
             migrationBuilder.DropTable(
-                name: "ProductMenu");
+                name: "products");
 
             migrationBuilder.DropTable(
-                name: "User");
+                name: "users");
         }
     }
 }

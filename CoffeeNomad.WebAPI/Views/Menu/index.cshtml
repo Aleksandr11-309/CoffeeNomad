@@ -1,0 +1,444 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Menu - Order Management</title>
+    <link rel="stylesheet" href="~/globals.css" />
+    <link rel="stylesheet" href="~/styleguide.css" />
+    <link rel="stylesheet" href="~/menuStyle.css" />
+    <link rel="stylesheet" href="~/headerStyle.css" />
+    <link rel="stylesheet" href="~/menu-containerStyle.css" />
+    <link rel="stylesheet" href="~/cardStyle.css" />
+    <link rel="stylesheet" href="~/cart.css" />
+</head>
+<body>
+    <div id="active-block">
+        <header class="property-dashboard" role="banner">
+            <div class="frame">
+                <div class="logo">
+                    <div class="div">
+                        <div class="coffee">&nbsp;&nbsp; Coffee</div>
+                        <div class="text-wrapper">NOMAD</div>
+                    </div>
+                </div>
+                <nav class="navbar" role="navigation" aria-label="Main navigation">
+                    <div class="div-wrapper">
+                        <a class="text-2" id="dashboardLink" aria-current="page">Dashboard</a>
+                    </div>
+                    <button class="text-2" id="menuLink" type="button" aria-label="Menu">Menu</button>
+                    <button class="text-2" id="ordersLink" type="button" aria-label="Orders">Orders</button>
+                    <button class="text-2" id="customersLink" type="button" aria-label="Customers">Customers</button>
+                    <button class="text-2" id="productsLink" type="button" aria-label="Products">Prodcuts</button>
+                    <button class="text-2" id="promosLink" type="button" aria-label="Promos">Promos</button>
+                    <button class="text-2" id="settingsLink" type="button" aria-label="Settings">Settings</button>
+                </nav>
+            </div>
+            <div class="frame-2">
+                <button class="notification-button" type="button" aria-label="Notifications">
+                    <img class="huge-icon-device" src="~/notification.svg" alt="" />
+                </button>
+                <div class="frame-3">
+                    <img class="rectangle" src="~/Rectangle 3463281.png" alt="Jack Lowies profile picture" />
+                    <div class="frame-4">
+                        <div class="text-3">Jack Lowies</div>
+                        <div class="text-4">Cashier</div>
+                    </div>
+                    <button class="dropdown-button" type="button" aria-label="User menu" aria-expanded="false">
+                        <img class="huge-icon-arrows" src="~/direction-down 01.svg" alt="" />
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="element-menu-light">
+            <section class="all-destinations">
+                <header class="header">
+                    <h1 class="text">Menu</h1>
+                    <div class="div">
+                        <div class="frame">
+                            <div class="input-field">
+                                <div class="frame-2">
+                                    <div class="frame-3">
+                                        <img class="img" src="~/search 01.svg" alt="Search icon" />
+                                        <input class="placeholder" placeholder="Search" type="text" aria-label="Search orders" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="frame-4">
+                            <button class="button-wrapper" type="button" aria-label="Filter orders">
+                                <div class="button">
+                                    <div class="frame-5">
+                                        <img class="img" src="~/filter.svg" alt="Filter icon" />
+                                        <span class="text-wrapper">Filter</span>
+                                    </div>
+                                </div>
+                            </button>
+                            <button class="cart-btn" type="button" aria-label="Add new order">
+                                <div class="frame-6">
+                                    <img class="img" src="~/plus-white.svg" alt="Plus icon" />
+                                    <span class="button-2">Add New Order</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </header>
+                <nav class="container" role="navigation" aria-label="Menu categories">
+                    <article class="item" role="button" tabindex="0" aria-label="All Menu, 200 items">
+                        <div class="frame">
+                            <div class="icon" aria-hidden="true">
+                                <div class="div">
+                                    <img class="vector" src="~/ring.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-wrapper">All Menu</h3>
+                                <p class="text-wrapper-2">200 Item</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="frame-wrapper" role="button" tabindex="0" aria-label="Hot Coffee, 30 items">
+                        <div class="frame-3">
+                            <div class="div-wrapper" aria-hidden="true">
+                                <div class="frame-4">
+                                    <img class="vector" src="~/couple.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-wrapper-3">Hot Coffee</h3>
+                                <p class="text-wrapper-4">30 Item</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="frame-wrapper" role="button" tabindex="0" aria-label="Iced Coffee, 30 items">
+                        <div class="frame-5">
+                            <div class="div-wrapper" aria-hidden="true">
+                                <div class="div">
+                                    <img class="vector" src="~/coffee.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-wrapper-3">Iced Coffee</h3>
+                                <p class="text-wrapper-4">30 Item</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="frame-wrapper" role="button" tabindex="0" aria-label="Tea, 10 items">
+                        <div class="frame-6">
+                            <div class="div-wrapper" aria-hidden="true">
+                                <div class="div">
+                                    <img class="vector" src="~/tea.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-wrapper-3">Tea</h3>
+                                <p class="text-wrapper-4">10 Item</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="frame-wrapper" role="button" tabindex="0" aria-label="Water, 10 items">
+                        <div class="frame-6">
+                            <div class="div-wrapper" aria-hidden="true">
+                                <div class="div">
+                                    <img class="vector" src="~/water.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-wrapper-3">Water</h3>
+                                <p class="text-wrapper-4">10 Item</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="frame-wrapper" role="button" tabindex="0" aria-label="Juice, 10 items">
+                        <div class="frame-6">
+                            <div class="div-wrapper" aria-hidden="true">
+                                <div class="div">
+                                    <img class="vector" src="~/juice.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-wrapper-3">Juice</h3>
+                                <p class="text-wrapper-4">10 Item</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="frame-wrapper" role="button" tabindex="0" aria-label="Dessert, 20 items">
+                        <div class="frame-6">
+                            <div class="div-wrapper" aria-hidden="true">
+                                <div class="frame-8">
+                                    <img class="vector" src="~/dessert.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-wrapper-3">Dessert</h3>
+                                <p class="text-wrapper-4">20 Item</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="frame-wrapper" role="button" tabindex="0" aria-label="Cookies, 20 items">
+                        <div class="frame-6">
+                            <div class="div-wrapper" aria-hidden="true">
+                                <div class="frame-9">
+                                    <img class="vector" src="~/cookie.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-wrapper-3">Cookies</h3>
+                                <p class="text-wrapper-4">20 Item</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="frame-wrapper" role="button" tabindex="0" aria-label="Donuts, 20 items">
+                        <div class="frame-6">
+                            <div class="div-wrapper" aria-hidden="true">
+                                <div class="frame-10">
+                                    <img class="vector" src="~/donuts.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="text-wrapper-3">Donuts</h3>
+                                <p class="text-wrapper-4">20 Item</p>
+                            </div>
+                        </div>
+                    </article>
+                </nav>
+                <div class="menu-items">
+                    <article class="CARD" role="region" aria-labelledby="product-title">
+                        <div class="rectangle" aria-hidden="true"></div>
+                        <section class="frame">
+                            <div class="div">
+                                <header class="frame-2">
+                                    <h1 class="already-have-an" id="product-title">Matcha</h1>
+                                    <span class="text-wrapper" aria-label="Price: $20">$20</span>
+                                </header>
+                                <div class="div">
+                                    <label class="text-wrapper-2" for="cup-size-group">Cup Size</label>
+                                    <fieldset class="QTY" id="cup-size-group" role="radiogroup" aria-labelledby="cup-size-label">
+                                        <legend class="sr-only" id="cup-size-label">Select cup size</legend>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="s" class="sr-only" aria-describedby="size-s-label" />
+                                            <span class="text-wrapper-3" id="size-s-label">S</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="m" class="sr-only" aria-describedby="size-m-label" />
+                                            <span class="text-wrapper-3" id="size-m-label">M</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="l" class="sr-only" aria-describedby="size-l-label" />
+                                            <span class="text-wrapper-3" id="size-l-label">L</span>
+                                        </label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="item-container-button">
+                                <button class="item-button" type="button" aria-label="Add Matcha to shopping cart">
+                                    <span class="button-2">Add to Cart</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </section>
+                        <img class="image"
+                             src="~/image 1607.png"
+                             alt="Matcha latte with green foam art in a brown ceramic cup and saucer" />
+                    </article>
+                    <article class="CARD" role="region" aria-labelledby="product-title">
+                        <div class="rectangle" aria-hidden="true"></div>
+                        <section class="frame">
+                            <div class="div">
+                                <header class="frame-2">
+                                    <h1 class="already-have-an" id="product-title">Matcha</h1>
+                                    <span class="text-wrapper" aria-label="Price: $20">$20</span>
+                                </header>
+                                <div class="div">
+                                    <label class="text-wrapper-2" for="cup-size-group">Cup Size</label>
+                                    <fieldset class="QTY" id="cup-size-group" role="radiogroup" aria-labelledby="cup-size-label">
+                                        <legend class="sr-only" id="cup-size-label">Select cup size</legend>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="s" class="sr-only" aria-describedby="size-s-label" />
+                                            <span class="text-wrapper-3" id="size-s-label">S</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="m" class="sr-only" aria-describedby="size-m-label" />
+                                            <span class="text-wrapper-3" id="size-m-label">M</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="l" class="sr-only" aria-describedby="size-l-label" />
+                                            <span class="text-wrapper-3" id="size-l-label">L</span>
+                                        </label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="item-container-button">
+                                <button class="item-button" type="button" aria-label="Add Matcha to shopping cart">
+                                    <span class="button-2">Add to Cart</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </section>
+                        <img class="image"
+                             src="~/image 1607.png"
+                             alt="Matcha latte with green foam art in a brown ceramic cup and saucer" />
+                    </article>
+                    <article class="CARD" role="region" aria-labelledby="product-title">
+                        <div class="rectangle" aria-hidden="true"></div>
+                        <section class="frame">
+                            <div class="div">
+                                <header class="frame-2">
+                                    <h1 class="already-have-an" id="product-title">Matcha</h1>
+                                    <span class="text-wrapper" aria-label="Price: $20">$20</span>
+                                </header>
+                                <div class="div">
+                                    <label class="text-wrapper-2" for="cup-size-group">Cup Size</label>
+                                    <fieldset class="QTY" id="cup-size-group" role="radiogroup" aria-labelledby="cup-size-label">
+                                        <legend class="sr-only" id="cup-size-label">Select cup size</legend>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="s" class="sr-only" aria-describedby="size-s-label" />
+                                            <span class="text-wrapper-3" id="size-s-label">S</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="m" class="sr-only" aria-describedby="size-m-label" />
+                                            <span class="text-wrapper-3" id="size-m-label">M</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="l" class="sr-only" aria-describedby="size-l-label" />
+                                            <span class="text-wrapper-3" id="size-l-label">L</span>
+                                        </label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="item-container-button">
+                                <button class="item-button" type="button" aria-label="Add Matcha to shopping cart">
+                                    <span class="button-2">Add to Cart</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </section>
+                        <img class="image"
+                             src="~/image 1607.png"
+                             alt="Matcha latte with green foam art in a brown ceramic cup and saucer" />
+                    </article>
+                    <article class="CARD" role="region" aria-labelledby="product-title">
+                        <div class="rectangle" aria-hidden="true"></div>
+                        <section class="frame">
+                            <div class="div">
+                                <header class="frame-2">
+                                    <h1 class="already-have-an" id="product-title">Matcha</h1>
+                                    <span class="text-wrapper" aria-label="Price: $20">$20</span>
+                                </header>
+                                <div class="div">
+                                    <label class="text-wrapper-2" for="cup-size-group">Cup Size</label>
+                                    <fieldset class="QTY" id="cup-size-group" role="radiogroup" aria-labelledby="cup-size-label">
+                                        <legend class="sr-only" id="cup-size-label">Select cup size</legend>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="s" class="sr-only" aria-describedby="size-s-label" />
+                                            <span class="text-wrapper-3" id="size-s-label">S</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="m" class="sr-only" aria-describedby="size-m-label" />
+                                            <span class="text-wrapper-3" id="size-m-label">M</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="l" class="sr-only" aria-describedby="size-l-label" />
+                                            <span class="text-wrapper-3" id="size-l-label">L</span>
+                                        </label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="item-container-button">
+                                <button class="item-button" type="button" aria-label="Add Matcha to shopping cart">
+                                    <span class="button-2">Add to Cart</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </section>
+                        <img class="image"
+                             src="~/image 1607.png"
+                             alt="Matcha latte with green foam art in a brown ceramic cup and saucer" />
+                    </article>
+                    <article class="CARD" role="region" aria-labelledby="product-title">
+                        <div class="rectangle" aria-hidden="true"></div>
+                        <section class="frame">
+                            <div class="div">
+                                <header class="frame-2">
+                                    <h1 class="already-have-an" id="product-title">Matcha</h1>
+                                    <span class="text-wrapper" aria-label="Price: $20">$20</span>
+                                </header>
+                                <div class="div">
+                                    <label class="text-wrapper-2" for="cup-size-group">Cup Size</label>
+                                    <fieldset class="QTY" id="cup-size-group" role="radiogroup" aria-labelledby="cup-size-label">
+                                        <legend class="sr-only" id="cup-size-label">Select cup size</legend>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="s" class="sr-only" aria-describedby="size-s-label" />
+                                            <span class="text-wrapper-3" id="size-s-label">S</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="m" class="sr-only" aria-describedby="size-m-label" />
+                                            <span class="text-wrapper-3" id="size-m-label">M</span>
+                                        </label>
+                                        <label class="delete">
+                                            <input type="radio" name="cup-size" value="l" class="sr-only" aria-describedby="size-l-label" />
+                                            <span class="text-wrapper-3" id="size-l-label">L</span>
+                                        </label>
+                                    </fieldset>
+                                </div>
+                            </div>
+                            <div class="item-container-button">
+                                <button class="item-button" type="button" aria-label="Add Matcha to shopping cart">
+                                    <span class="button-2">Add to Cart</span>
+                                    </span>
+                                </button>
+                            </div>
+                        </section>
+                        <img class="image"
+                             src="~/image 1607.png"
+                             alt="Matcha latte with green foam art in a brown ceramic cup and saucer" />
+                    </article>
+                </div>
+                <nav class="div" aria-label="Pagination and results">
+                    <div class="frame-7">
+                        <span class="text-wrapper-2">Showing</span>
+                        <div class="frame-8" role="combobox" aria-expanded="false" aria-label="Items per page">
+                            <span class="text-wrapper-3">10</span>
+                            <img class="huge-icon-arrows" src="~/direction-down.svg" alt="Dropdown arrow" />
+                        </div>
+                    </div>
+                    <p class="text-wrapper-2">Showing 1 to 12 out of 50 records</p>
+                    <div class="frame-5">
+                        <button class="nostyle-button" type="button" aria-label="Previous page">
+                            <img class="img" src="~/direction-left 01.svg" alt="Previous page" />
+                        </button>
+                        <div class="frame-9" role="navigation" aria-label="Page navigation">
+                            <button class="selected-page" type="button" aria-current="page" aria-label="Page 1, current page">
+                                <div class="frame-5">
+                                    <span class="button-3">1</span>
+                                </div>
+                            </button>
+                            <button class="button-4" type="button" aria-label="Go to page 2">
+                                <div class="frame-5">
+                                    <span class="button-5">2</span>
+                                </div>
+                            </button>
+                            <button class="button-4" type="button" aria-label="Go to page 3">
+                                <div class="frame-5">
+                                    <span class="button-5">3</span>
+                                </div>
+                            </button>
+                            <button class="button-4" type="button" aria-label="Go to page 4">
+                                <div class="frame-5">
+                                    <span class="button-5">4</span>
+                                </div>
+                            </button>
+                        </div>
+                        <button class="nostyle-button" type="button" aria-label="Next page">
+                            <img class="img" src="~/direction-right 01.svg" alt="Next page" />
+                        </button>
+                    </div>
+                </nav>
+            </section>
+        </main>
+    </div>
+
+    <script src="~/cart.js"></script>
+    <script src="~/header.js"></script>
+</body>
+</html>

@@ -39,10 +39,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Валидация email
-    //function isValidEmail(email) {
-    //    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    //    return emailRegex.test(email);
-    //}
+    function isValidEmail(email) {
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
 
     // Валидация формы
     //function validateForm() {
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 // Успешный вход
                 if (result.result) {
                     // Перенаправляем на главную страницу или другую защищенную страницу
-                    window.location.href = '/home/index';
+                    window.location.href = '/Menu/Index';
                 } else {
                     alert('Неверный пароль или вы не зарегистрированы');
                 }
@@ -151,18 +151,20 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Обработка клика по ссылке "Forgot Password?"
+     //Обработка клика по ссылке "Forgot Password?"
     forgotPasswordLink.addEventListener('click', function(e) {
         e.preventDefault();
         const email = emailInput.value.trim();
         
-        if (email) //&& isValidEmail(email)
-        {
-            // Заполняем email в форме восстановления пароля
-            window.location.href = `/User/forgot-password?email=${encodeURIComponent(email)}`;
-        } else {
-            window.location.href = '/User/forgot-password';
-        }
+        //if (email && isValidEmail(email))
+        //{
+        //    // Заполняем email в форме восстановления пароля
+        //    window.location.href = `/User/forgot-password?email=${encodeURIComponent(email)}`;
+        //} else {
+        //    window.location.href = '/User/forgot-password';
+        //}
+
+        window.location.href = '/User/forgot-password';
     });
 
     // Обработка клика по ссылке "Sign Up"

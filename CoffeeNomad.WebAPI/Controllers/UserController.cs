@@ -23,7 +23,7 @@ namespace CoffeeNomad.WebAPI.Controllers
         public async Task<IActionResult> GetRegister() => View("signup");
 
         [HttpGet("forgot-password")]
-        public async Task<IActionResult> GetForgot() => View("forgot");
+        public async Task<IActionResult> GetForgot() => View("resetpass");
 
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterContract user)

@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CoffeeNomad.DataBase.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20250914200715_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250915171305_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -51,7 +51,7 @@ namespace CoffeeNomad.DataBase.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Cart");
+                    b.ToTable("carts");
                 });
 
             modelBuilder.Entity("CoffeeNomad.DataBase.Entities.Order", b =>
@@ -89,7 +89,7 @@ namespace CoffeeNomad.DataBase.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Order");
+                    b.ToTable("orders");
                 });
 
             modelBuilder.Entity("CoffeeNomad.DataBase.Entities.ProductMenu", b =>
@@ -114,7 +114,7 @@ namespace CoffeeNomad.DataBase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ProductMenu");
+                    b.ToTable("products");
                 });
 
             modelBuilder.Entity("CoffeeNomad.DataBase.Entities.User", b =>
@@ -143,7 +143,7 @@ namespace CoffeeNomad.DataBase.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("User");
+                    b.ToTable("users");
                 });
 
             modelBuilder.Entity("CoffeeNomad.DataBase.Entities.Cart", b =>

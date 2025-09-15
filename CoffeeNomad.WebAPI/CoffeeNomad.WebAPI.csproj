@@ -19,11 +19,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Views\Dashboard\" />
-    <Folder Include="Views\Menu\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CoffeeNomad.Contracts\CoffeeNomad.Contracts.csproj" />
     <ProjectReference Include="..\CoffeeNomad.DataBase\CoffeeNomad.DataBase.csproj" />
     <ProjectReference Include="..\CoffeeNomad.Infrastructure\CoffeeNomad.Infrastructure.csproj" />

@@ -6,13 +6,13 @@ namespace CoffeeNomad.DataBase
 {
     public class ApplicationDBContext : DbContext
     {
-        public DbSet<Order> orders;
+        public DbSet<Order> orders {  get; set; }
 
-        public DbSet<ProductMenu> products;
+        public DbSet<ProductMenu> products { get; set; }
 
-        public DbSet<User> users;
+        public DbSet<User> users { get; set; }
 
-        public DbSet<Cart> carts;
+        public DbSet<Cart> carts { get; set; }
 
         public ApplicationDBContext(DbContextOptions options) : base(options) { }
 

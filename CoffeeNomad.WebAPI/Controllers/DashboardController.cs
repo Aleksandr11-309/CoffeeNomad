@@ -27,7 +27,7 @@ namespace CoffeeNomad.WebAPI.Controllers
         }
 
         [HttpGet("dashboard")]
-        public async Task<IActionResult> Index() => View("dashboard");
+        public async Task<IActionResult> Index() => View("index");
 
         [HttpGet("totalOrders")]
         public async Task<IActionResult> GetOrders() 

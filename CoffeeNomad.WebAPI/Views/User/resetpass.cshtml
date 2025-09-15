@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Reset Password - Nomad POS</title>
+    <link rel="stylesheet" href="~/globals.css" />
+    <link rel="stylesheet" href="~/styleguide.css" />
+    <link rel="stylesheet" href="~/resetpassStyle.css" />
+</head>
+<body>
+    <main class="element-reset-password">
+        <section class="forgot-password">
+            <div class="forgot-password-wrapper">
+                <div class="div">
+                    <nav class="frame" id="backInLogin">
+                        <img class="huge-icon-arrows" src="~/direction-left 01.svg" alt="Back arrow" />
+                        <span class="text-wrapper">Back</span>
+                    </nav>
+                    <header class="frame-2">
+                        <h1 class="welcomeback-fabiana">Reset Password</h1>
+                        <p class="p">Enter your registered email address. we'll send you a code to reset your password.</p>
+                    </header>
+                    <form class="frame-3" method="post" action="#" novalidate>
+                        <div class="input-field">
+                            <div class="frame-4">
+                                <label class="label" for="email">Email Address</label>
+                            </div>
+                            <div class="frame-5">
+                                <div class="frame-6">
+                                    <input type="email"
+                                           id="email"
+                                           name="email"
+                                           class="placeholder"
+                                           placeholder="example@gmail.com"
+                                           required
+                                           aria-describedby="email-error"
+                                           autocomplete="email" />
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="button">
+                            <div class="frame-7">
+                                <span class="button-2">Send OTP</span>
+                            </div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <aside class="illustration" aria-label="Coffee shop illustration">
+            <img class="banner" src="~/Banner.svg" alt="Coffee shop interior with barista working" />
+        </aside>
+    </main>
+
+    <script src="~/resetpass.js"></script>
+</body>
+</html>

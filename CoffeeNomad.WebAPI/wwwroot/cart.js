@@ -31,7 +31,7 @@ function createCart() {
           <div class="frame-3">
             <span class="text-wrapper-3">Take Away</span>
           </div>
-          <img class="huge-icon-arrows" src="img/direction-down.svg" alt="Dropdown arrow" />
+          <img class="huge-icon-arrows" src="~/direction-down.svg" alt="Dropdown arrow" />
         </label>
         <select id="order-type" class="visually-hidden">
           <option value="takeaway" selected>Take Away</option>
@@ -44,7 +44,7 @@ function createCart() {
         <article class="frame-5">
           <div class="frame-6">
             <div class="image-wrapper">
-              <img class="image" src="img/image 1607.png" alt="Matcha drink" />
+              <img class="image" src="~/image 1607.png" alt="Matcha drink" />
             </div>
             <div class="frame-7">
               <div class="frame-8">
@@ -56,17 +56,17 @@ function createCart() {
           </div>
           <div class="frame-9">
             <button class="auto-layout" type="button" aria-label="Remove item">
-              <img class="img" src="img/trash.svg" alt="Remove" />
+              <img class="img" src="~/trash.svg" alt="Remove" />
             </button>
             <div class="QTY" role="group" aria-label="Quantity controls for Matcha">
               <button class="delete" type="button" aria-label="Decrease quantity">
-                <img class="img" src="img/minus.svg" alt="Minus" />
+                <img class="img" src="~/minus.svg" alt="Minus" />
               </button>
               <div class="div-wrapper">
                 <span class="text-wrapper-6">0</span>
               </div>
               <button class="delete" type="button" aria-label="Increase quantity">
-                <img class="img" src="img/add.svg" alt="Plus" />
+                <img class="img" src="~/add.svg" alt="Plus" />
               </button>
             </div>
           </div>
@@ -74,7 +74,7 @@ function createCart() {
         <div class="input-field-wrapper">
           <div class="input-field-2">
             <label class="frame-2" for="matcha-note">
-              <img class="note" src="img/note.svg" alt="Note icon" />
+              <img class="note" src="~/note.svg" alt="Note icon" />
               <div class="frame-3">
                 <span class="text-wrapper-3">Add Note</span>
               </div>
@@ -85,7 +85,7 @@ function createCart() {
       </section>
       <article class="frame-10">
         <div class="image-wrapper">
-          <img class="image" src="img/image 1607.png" alt="Salted Caramel Truffle" />
+          <img class="image" src="~/image 1607.png" alt="Salted Caramel Truffle" />
         </div>
         <div class="frame-11">
           <div class="frame-8">
@@ -97,24 +97,24 @@ function createCart() {
       </article>
       <div class="frame-12">
         <button class="auto-layout" type="button" aria-label="Remove item">
-          <img class="img" src="img/trash.svg" alt="Remove" />
+          <img class="img" src="~/trash.svg" alt="Remove" />
         </button>
         <div class="QTY" role="group" aria-label="Quantity controls for Salted Caramel Truffle">
           <button class="delete" type="button" aria-label="Decrease quantity">
-            <img class="img" src="img/minus.svg" alt="Minus" />
+            <img class="img" src="~/minus.svg" alt="Minus" />
           </button>
           <div class="div-wrapper">
             <span class="text-wrapper-6">0</span>
           </div>
           <button class="delete" type="button" aria-label="Increase quantity">
-            <img class="img" src="img/add.svg" alt="Plus" />
+            <img class="img" src="~/add.svg" alt="Plus" />
           </button>
         </div>
       </div>
       <div class="frame-13">
         <div class="input-field-2">
           <label class="frame-2" for="truffle-note">
-            <img class="note" src="img/note.svg" alt="Note icon" />
+            <img class="note" src="~/note.svg" alt="Note icon" />
             <div class="frame-3">
               <span class="text-wrapper-3">Add Note</span>
             </div>
@@ -132,7 +132,7 @@ function createCart() {
               <div class="icon">
                 <div class="group-wrapper">
                   <div class="group">
-                    <img src="img/cash.svg" alt="" />
+                    <img src="~/cash.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -145,7 +145,7 @@ function createCart() {
               <div class="icon-2">
                 <div class="group-wrapper">
                   <div class="group">
-                    <img src="img/card.svg" alt="" />
+                    <img src="~/card.svg" alt="" />
                   </div>
                 </div>
               </div>
@@ -157,7 +157,7 @@ function createCart() {
             <div class="frame-18">
               <div class="icon">
                 <div class="frame-19">
-                    <img src="img/e-wallet.svg" alt="" />
+                    <img src="~/e-wallet.svg" alt="" />
                 </div>
               </div>
               <span class="text-wrapper-11">E-wallet</span>
@@ -178,7 +178,7 @@ function createCart() {
               <span class="text-wrapper-13">$4</span>
             </div>
           </div>
-          <img class="vector" src="img/vector-7.svg" alt="Divider line" />
+          <img class="vector" src="~/vector-7.svg" alt="Divider line" />
         </div>
         <div class="frame-23">
           <span class="text-wrapper-12">Total</span>

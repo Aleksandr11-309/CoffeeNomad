@@ -27,7 +27,7 @@ namespace CoffeeNomad.DataBase.Entities
                 Email = user.Email,
                 Password = password,
                 MobileNumber = user.MobileNumber,
-                //Location = user.Location,
+                //Location = user.Location, // дорогой дневник это пздц
                 Role = user.Role,
             };
         }

@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Settings</title>
+    <link rel="stylesheet" href="~/globals.css" />
+    <link rel="stylesheet" href="~/styleguide.css" />
+    <link rel="stylesheet" href="~/settings.css" />
+    <link rel="stylesheet" href="~/headerStyle.css" />
+</head>
+<body>
+    <header class="property-dashboard" role="banner">
+        <div class="frame">
+            <div class="logo">
+                <div class="div">
+                    <div class="coffee">&nbsp;&nbsp; Coffee</div>
+                    <div class="text-wrapper">NOMAD</div>
+                </div>
+            </div>
+            <nav class="navbar" role="navigation" aria-label="Main navigation">
+                <div class="div-wrapper">
+                    <div class="text-2" id="dashboardLink" aria-current="page">Dashboard</div>
+                </div>
+                <button class="text-2" id="menuLink" type="button" aria-label="Menu">Menu</button>
+                <button class="text-2" id="ordersLink" type="button" aria-label="Orders">Orders</button>
+                <button class="text-2" id="customersLink" type="button" aria-label="Customers">Customers</button>
+                <button class="text-2" id="productsLink" type="button" aria-label="Products">Prodcuts</button>
+                <button class="text-2" id="promosLink" type="button" aria-label="Promos">Promos</button>
+                <button class="text-2" id="settingsLink" type="button" aria-label="Settings">Settings</button>
+            </nav>
+        </div>
+        <div class="frame-2">
+            <button class="notification-button" type="button" aria-label="Notifications">
+                <img class="huge-icon-device" src="~/notification.svg" alt="" />
+            </button>
+            <div class="frame-3">
+                <img class="rectangle" src="~/Rectangle 3463281.png" alt="Jack Lowies profile picture" />
+                <div class="frame-4">
+                    <div class="text-3">Jack Lowies</div>
+                    <div class="text-4">Cashier</div>
+                </div>
+                <button class="dropdown-button" type="button" aria-label="User menu" aria-expanded="false">
+                    <img class="huge-icon-arrows" src="~/direction-down 01.svg" alt="" />
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="all-destinations">
+        <header class="header">
+            <h1 class="text">Settings</h1>
+        </header>
+        <section class="bookings">
+            <div class="frame">
+                <div class="div">
+                    <h2 class="text-wrapper">Settings</h2>
+                    <button class="button" type="button" aria-label="See all settings">
+                        <div class="frame-2">
+                            <span class="button-2">See All</span>
+                        </div>
+                    </button>
+                </div>
+                <div class="all-settings">
+                    <div class="div-2">
+                        <div class="frame-3">
+                            <h3 class="text-2">Appearance</h3>
+                            <p class="text-3">Customize how your theme looks on your device</p>
+                        </div>
+                        <button class="frame-wrapper"
+                                type="button"
+                                aria-label="Change appearance setting, currently set to Light">
+                            <div class="frame-4">
+                                <span class="button-3">Light</span>
+                                <img class="huge-icon-arrows" src="~/direction-right 01.svg" alt="Arrow right" />
+                            </div>
+                        </button>
+                    </div>
+                    <div class="div-2">
+                        <div class="frame-3">
+                            <h3 class="text-2">Language</h3>
+                            <p class="text-3">Select your language</p>
+                        </div>
+                        <button class="frame-wrapper"
+                                type="button"
+                                aria-label="Change language setting, currently set to English">
+                            <div class="frame-4">
+                                <span class="button-3">English</span>
+                                <img class="huge-icon-arrows" src="~/direction-right 01.svg" alt="Arrow right" />
+                            </div>
+                        </button>
+                    </div>
+                    <div class="div-2">
+                        <div class="frame-3">
+                            <h3 class="text-2">Two-factor Authentication</h3>
+                            <p class="text-3">Keep your account secure by enabling 2FA via mail</p>
+                        </div>
+                        <div class="toggle" role="switch" aria-checked="true" tabindex="0" aria-label="Toggle switch">
+                            <div class="switch-container">
+                                <div class="switch"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-2">
+                        <div class="frame-3">
+                            <h3 class="text-2">Mobile Push Notifications</h3>
+                            <p class="text-3">Receive push notification</p>
+                        </div>
+                        <div class="toggle" role="switch" aria-checked="true" tabindex="0" aria-label="Toggle switch">
+                            <div class="switch-container">
+                                <div class="switch"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="div-2">
+                        <div class="frame-3">
+                            <h3 class="text-2">Desktop Notification</h3>
+                            <p class="text-3">Receive push notification in desktop</p>
+                        </div>
+                        <div class="toggle" role="switch" aria-checked="true" tabindex="0" aria-label="Toggle switch">
+                            <div class="switch-container">
+                                <div class="switch"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="email-notificatiions">
+                        <div class="frame-3">
+                            <h3 class="text-2">Email Notifications</h3>
+                            <p class="text-3">Receive email notification</p>
+                        </div>
+                        <div class="toggle" role="switch" aria-checked="true" tabindex="0" aria-label="Toggle switch">
+                            <div class="switch-container">
+                                <div class="switch"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="~/header.js"></script>
+</body>
+</html>

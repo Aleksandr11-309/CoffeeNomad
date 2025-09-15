@@ -1,0 +1,480 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Menu - Order Management</title>
+    <link rel="stylesheet" href="~/globals.css" />
+    <link rel="stylesheet" href="~/styleguide.css" />
+    <link rel="stylesheet" href="~/menuStyle.css" />
+    <link rel="stylesheet" href="~/headerStyle.css" />
+    <link rel="stylesheet" href="~/ordersStyle.css" />
+</head>
+<body>
+    <div id="active-block">
+        <header class="property-dashboard" role="banner">
+            <div class="frame">
+                <div class="logo">
+                    <div class="div">
+                        <div class="coffee">&nbsp;&nbsp; Coffee</div>
+                        <div class="text-wrapper">NOMAD</div>
+                    </div>
+                </div>
+                <nav class="navbar" role="navigation" aria-label="Main navigation">
+                    <div class="div-wrapper">
+                        <div class="text-2" id="dashboardLink" aria-current="page">Dashboard</div>
+                    </div>
+                    <button class="text-2" id="menuLink" type="button" aria-label="Menu">Menu</button>
+                    <button class="text-2" id="ordersLink" type="button" aria-label="Orders">Orders</button>
+                    <button class="text-2" id="customersLink" type="button" aria-label="Customers">Customers</button>
+                    <button class="text-2" id="productsLink" type="button" aria-label="Products">Prodcuts</button>
+                    <button class="text-2" id="promosLink" type="button" aria-label="Promos">Promos</button>
+                    <button class="text-2" id="settingsLink" type="button" aria-label="Settings">Settings</button>
+                </nav>
+            </div>
+            <div class="frame-2">
+                <button class="notification-button" type="button" aria-label="Notifications">
+                    <img class="huge-icon-device" src="~/notification.svg" alt="" />
+                </button>
+                <div class="frame-3">
+                    <img class="rectangle" src="~/Rectangle 3463281.png" alt="Jack Lowies profile picture" />
+                    <div class="frame-4">
+                        <div class="text-3">Jack Lowies</div>
+                        <div class="text-4">Cashier</div>
+                    </div>
+                    <button class="dropdown-button" type="button" aria-label="User menu" aria-expanded="false">
+                        <img class="huge-icon-arrows" src="~/direction-down 01.svg" alt="" />
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main class="element-menu-light">
+            <section class="all-destinations">
+                <header class="header">
+                    <h1 class="text">Order History</h1>
+                    <div class="div">
+                        <div class="frame">
+                            <div class="input-field">
+                                <div class="frame-2">
+                                    <div class="frame-3">
+                                        <img class="img" src="~/search 01.svg" alt="Search icon" />
+                                        <input class="placeholder" placeholder="Search" type="text" aria-label="Search orders" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="frame-4">
+                            <button class="button-wrapper" type="button" aria-label="Filter orders">
+                                <div class="button">
+                                    <div class="frame-5">
+                                        <img class="img" src="~/filter.svg" alt="Filter icon" />
+                                        <span class="text-wrapper">Filter</span>
+                                    </div>
+                                </div>
+                            </button>
+                            <button class="cart-btn" type="button" aria-label="Add new order">
+                                <div class="frame-6">
+                                    <img class="img" src="~/plus-white.svg" alt="Plus icon" />
+                                    <span class="button-2">Add New Order</span>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </header>
+                <div class="orders">
+                    <section class="orders-frame">
+                        <header class="orders-header">
+                            <h1 class="orders-title">Latest Orders</h1>
+                            <button class="orders-button" type="button" aria-label="See all orders">
+                                <span class="orders-button-content">
+                                    <span class="orders-text-wrapper">See All</span>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="orders-table" role="table" aria-label="Orders table">
+                            <div class="orders-table-headers" role="row">
+                                <div class="orders-table-header-cell" role="columnheader">
+                                    <span class="orders-table-header-text">Order ID</span>
+                                </div>
+                                <div class="orders-table-header-customer" role="columnheader">
+                                    <span class="orders-table-header-text">Customer Name</span>
+                                </div>
+                                <div class="orders-table-header-date" role="columnheader">
+                                    <span class="orders-table-header-text">Date</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="columnheader">
+                                    <span class="orders-table-header-text">Amount</span>
+                                </div>
+                                <div class="orders-table-header-date" role="columnheader">
+                                    <span class="orders-table-header-text">Payment Method</span>
+                                </div>
+                                <div class="orders-table-header-status" role="columnheader">
+                                    <span class="orders-table-header-text">Status</span>
+                                </div>
+                                <div class="orders-table-header-order-status" role="columnheader">
+                                    <span class="orders-table-header-text">Order Status</span>
+                                </div>
+                                <div class="orders-table-header-action" role="columnheader">
+                                    <span class="orders-table-header-action-text">Action</span>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#901928</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192.png" alt="Theresa Webb profile picture" />
+                                    <span class="orders-table-cell-customer-name">Theresa Webb</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 25, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$50</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Credit Card</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag" aria-label="Payment status: Paid">
+                                        <span class="orders-table-cell-status-text">Paid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Done</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #901928">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#918273</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192 (1).png" alt="Guy Hawkins profile picture" />
+                                    <span class="orders-table-cell-customer-name">Guy Hawkins</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 25, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$75</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Cash</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag-unpaid" aria-label="Payment status: Unpaid">
+                                        <span class="orders-table-cell-status-text-unpaid">Unpaid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Canceled</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #918273">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#981029</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192 (2).png" alt="Ralph Edwards profile picture" />
+                                    <span class="orders-table-cell-customer-name">Ralph Edwards</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 24, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$90</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Credit Card</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag" aria-label="Payment status: Paid">
+                                        <span class="orders-table-cell-status-text">Paid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Done</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #981029">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#998172</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192 (3).png" alt="Kathryn Murphy profile picture" />
+                                    <span class="orders-table-cell-customer-name">Kathryn Murphy</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 24, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$140</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Credit Card</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag" aria-label="Payment status: Paid">
+                                        <span class="orders-table-cell-status-text">Paid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Done</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #998172">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#976152</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192 (4).png" alt="Courtney Henry profile picture" />
+                                    <span class="orders-table-cell-customer-name">Courtney Henry</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 24, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$22</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Cash</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag" aria-label="Payment status: Paid">
+                                        <span class="orders-table-cell-status-text">Paid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Done</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #976152">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#978122</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192 (5).png" alt="Esther Howard profile picture" />
+                                    <span class="orders-table-cell-customer-name">Esther Howard</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 24, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$43</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Credit Card</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag-unpaid" aria-label="Payment status: Unpaid">
+                                        <span class="orders-table-cell-status-text-unpaid">Unpaid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Canceled</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #978122">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#971823</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192 (6).png" alt="Brooklyn Simmons profile picture" />
+                                    <span class="orders-table-cell-customer-name">Brooklyn Simmons</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 23, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$19</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Credit Card</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag-unpaid" aria-label="Payment status: Unpaid">
+                                        <span class="orders-table-cell-status-text-unpaid">Unpaid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Canceled</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #971823">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#987652</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192 (7).png" alt="Dianne Russell profile picture" />
+                                    <span class="orders-table-cell-customer-name">Dianne Russell</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 22, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$130</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Credit Card</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag" aria-label="Payment status: Paid">
+                                        <span class="orders-table-cell-status-text">Paid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Done</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #987652">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#944615</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192 (8).png" alt="Jane Cooper profile picture" />
+                                    <span class="orders-table-cell-customer-name">Jane Cooper</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 10, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$156</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Cash</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag-unpaid" aria-label="Payment status: Unpaid">
+                                        <span class="orders-table-cell-status-text-unpaid">Unpaid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Canceled</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #944615">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="orders-table-row" role="row">
+                                <div class="orders-table-header-cell" role="cell">
+                                    <span class="orders-table-cell-text">#988234</span>
+                                </div>
+                                <div class="orders-table-cell-customer" role="cell">
+                                    <img class="orders-table-cell-avatar" src="~/Ellipse 1192 (9).png" alt="Jenny Wilson profile picture" />
+                                    <span class="orders-table-cell-customer-name">Jenny Wilson</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Jun 06, 2024</span>
+                                </div>
+                                <div class="orders-table-header-amount" role="cell">
+                                    <span class="orders-table-cell-text">$125</span>
+                                </div>
+                                <div class="orders-table-header-date" role="cell">
+                                    <span class="orders-table-cell-text">Credit Card</span>
+                                </div>
+                                <div class="orders-table-cell-status" role="cell">
+                                    <span class="orders-table-cell-status-tag" aria-label="Payment status: Paid">
+                                        <span class="orders-table-cell-status-text">Paid</span>
+                                    </span>
+                                </div>
+                                <div class="orders-table-cell-order-status" role="cell">
+                                    <span class="orders-table-cell-order-status-text">Done</span>
+                                </div>
+                                <div class="orders-table-cell-action" role="cell">
+                                    <button class="orders-table-cell-action-button" type="button" aria-label="View order details for #988234">
+                                        <img class="orders-table-cell-action-icon" src="~/eye.svg" alt="View" />
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <nav class="div" aria-label="Pagination and results">
+                    <div class="frame-7">
+                        <span class="text-wrapper-2">Showing</span>
+                        <div class="frame-8" role="combobox" aria-expanded="false" aria-label="Items per page">
+                            <span class="text-wrapper-3">10</span>
+                            <img class="huge-icon-arrows" src="~/direction-down.svg" alt="Dropdown arrow" />
+                        </div>
+                    </div>
+                    <p class="text-wrapper-2">Showing 1 to 12 out of 50 records</p>
+                    <div class="frame-5">
+                        <button class="nostyle-button" type="button" aria-label="Previous page">
+                            <img class="img" src="~/direction-left 01.svg" alt="Previous page" />
+                        </button>
+                        <div class="frame-9" role="navigation" aria-label="Page navigation">
+                            <button class="selected-page" type="button" aria-current="page" aria-label="Page 1, current page">
+                                <div class="frame-5">
+                                    <span class="button-3">1</span>
+                                </div>
+                            </button>
+                            <button class="button-4" type="button" aria-label="Go to page 2">
+                                <div class="frame-5">
+                                    <span class="button-5">2</span>
+                                </div>
+                            </button>
+                            <button class="button-4" type="button" aria-label="Go to page 3">
+                                <div class="frame-5">
+                                    <span class="button-5">3</span>
+                                </div>
+                            </button>
+                            <button class="button-4" type="button" aria-label="Go to page 4">
+                                <div class="frame-5">
+                                    <span class="button-5">4</span>
+                                </div>
+                            </button>
+                        </div>
+                        <button class="nostyle-button" type="button" aria-label="Next page">
+                            <img class="img" src="~/direction-right 01.svg" alt="Next page" />
+                        </button>
+                    </div>
+                </nav>
+            </section>
+        </main>
+    </div>
+
+    <script src="~/header.js"></script>
+</body>
+</html>
